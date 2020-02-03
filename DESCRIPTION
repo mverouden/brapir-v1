@@ -1,0 +1,32 @@
+Package: brapir
+Type: Package
+Title: Client to Access BrAPI Compliant Plant Breeding Databases
+Version: 1.3.0
+Authors@R: c(
+  person("Maikel", "Verouden", email = "Maikel.Verouden@wur.nl", role = c("aut", "ctb")),
+  person("Reinhard", "Simon", email = "rsimon64@gmail.com", role = c("aut", "cre", "ctb"))
+  )
+Maintainer: Maikel Verouden <maikel.verouden@wur.nl>
+Description: Implements the Breeding API version 1.3 (www.brapi.org) within R.
+Depends:
+    R (>= 3.5.0)
+BugReports: https://github.com/mverouden/brapir/issues
+URL: https://CIP-RIU.github.io/brapi
+License: file LICENSE
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.0.2
+Roxygen: list(markdown = TRUE)
+Imports:
+    httr,
+    jsonlite,
+    stringr,
+    curl,
+    magrittr,
+    dplyr,
+    utils,
+    readr,
+    tidyr,
+    knitr
+Suggests:
+VignetteBuilder: knitr

@@ -1,0 +1,16 @@
+^doc$
+^Meta$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rhistory
+^README\.md$
+^README\.Rmd$
+^README-.*\.png$
+^appveyor\.yml$
+^\.travis\.yml$
+^codecov\.yml$
+^\.DS_Store
+^\.lintr
+^\.docs
+^docs
+^\.httr-oauth$
