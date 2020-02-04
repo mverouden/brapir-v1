@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_ontologies.R
 \name{brapi_get_ontologies}
 \alias{brapi_get_ontologies}
-\title{brapi_get_ontologies}
+\title{get /ontologies}
 \usage{
 brapi_get_ontologies(con = NULL, page = 0, pageSize = 1000)
 }

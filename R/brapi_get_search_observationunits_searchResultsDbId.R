@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_observationunits_searchResultsDbId
+#' get /search/observationunits/\{searchResultsDbId\}
 #'
 #' @description
 #' Observation Unit Search

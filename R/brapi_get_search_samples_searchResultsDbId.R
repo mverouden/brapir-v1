@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_samples_searchResultsDbId
+#' get /search/samples/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Samples search request

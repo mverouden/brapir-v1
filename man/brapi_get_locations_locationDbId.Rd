@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_locations_locationDbId.R
 \name{brapi_get_locations_locationDbId}
 \alias{brapi_get_locations_locationDbId}
-\title{brapi_get_locations_locationDbId}
+\title{get /locations/\{locationDbId\}}
 \usage{
 brapi_get_locations_locationDbId(con = NULL, locationDbId = "")
 }

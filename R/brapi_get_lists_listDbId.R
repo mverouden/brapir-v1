@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_lists_listDbId
+#' get /lists/\{listDbId\}
 #'
 #' @description
 #' Get the details of a specific List

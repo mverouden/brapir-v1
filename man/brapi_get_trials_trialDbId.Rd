@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_trials_trialDbId.R
 \name{brapi_get_trials_trialDbId}
 \alias{brapi_get_trials_trialDbId}
-\title{brapi_get_trials_trialDbId}
+\title{get /trials/\{trialDbId\}}
 \usage{
 brapi_get_trials_trialDbId(con = NULL, trialDbId = "")
 }

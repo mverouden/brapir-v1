@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_maps_mapDbId_positions.R
 \name{brapi_get_maps_mapDbId_positions}
 \alias{brapi_get_maps_mapDbId_positions}
-\title{brapi_get_maps_mapDbId_positions}
+\title{get /maps/\{mapDbId\}/positions}
 \usage{
 brapi_get_maps_mapDbId_positions(
   con = NULL,

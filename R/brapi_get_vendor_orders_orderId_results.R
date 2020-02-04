@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_vendor_orders_orderId_results
+#' get /vendor/orders/\{orderId\}/results
 #'
 #' @description
 #' Get the results of a specific Order

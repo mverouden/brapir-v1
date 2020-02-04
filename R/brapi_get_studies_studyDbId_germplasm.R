@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studies_studyDbId_germplasm
+#' get /studies/\{studyDbId\}/germplasm
 #'
 #' @description
 #' Get the Germplasm associated with a specific Study

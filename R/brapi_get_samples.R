@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_samples
+#' get /samples
 #'
 #' @description
 #' Get the Samples

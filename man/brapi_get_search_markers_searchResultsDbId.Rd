@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_search_markers_searchResultsDbId.R
 \name{brapi_get_search_markers_searchResultsDbId}
 \alias{brapi_get_search_markers_searchResultsDbId}
-\title{brapi_get_search_markers_searchResultsDbId}
+\title{get /search/markers/\{searchResultsDbId\}}
 \usage{
 brapi_get_search_markers_searchResultsDbId(
   con = NULL,

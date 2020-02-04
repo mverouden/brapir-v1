@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_markerprofiles.R
 \name{brapi_get_markerprofiles}
 \alias{brapi_get_markerprofiles}
-\title{brapi_get_markerprofiles}
+\title{get /markerprofiles}
 \usage{
 brapi_get_markerprofiles(
   con = NULL,

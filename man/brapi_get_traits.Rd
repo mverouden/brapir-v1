@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_traits.R
 \name{brapi_get_traits}
 \alias{brapi_get_traits}
-\title{brapi_get_traits}
+\title{get /traits}
 \usage{
 brapi_get_traits(con = NULL, page = 0, pageSize = 1000)
 }

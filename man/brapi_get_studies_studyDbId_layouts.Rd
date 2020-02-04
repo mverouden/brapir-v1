@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_studies_studyDbId_layouts.R
 \name{brapi_get_studies_studyDbId_layouts}
 \alias{brapi_get_studies_studyDbId_layouts}
-\title{brapi_get_studies_studyDbId_layouts}
+\title{get /studies/\{studyDbId\}/layouts}
 \usage{
 brapi_get_studies_studyDbId_layouts(
   con = NULL,

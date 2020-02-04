@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_images
+#' get /images
 #'
 #' @description
 #' Get the image meta data summaries

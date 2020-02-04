@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_breedingmethods_breedingMethodDbId
+#' get /breedingmethods/\{breedingMethodDbId\}
 #'
 #' @description
 #' Get the details of a specific Breeding Method

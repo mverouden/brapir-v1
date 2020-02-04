@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_people
+#' get /people
 #'
 #' @description
 #' Get the People

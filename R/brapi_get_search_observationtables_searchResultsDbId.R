@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_observationtables_searchResultsDbId
+#' get /search/observationtables/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Observation table search request

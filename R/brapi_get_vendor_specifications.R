@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_vendor_specifications
+#' get /vendor/specifications
 #'
 #' @description
 #' Get the Vendor Specifications

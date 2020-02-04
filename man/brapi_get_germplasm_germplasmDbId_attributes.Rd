@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_germplasm_germplasmDbId_attributes.R
 \name{brapi_get_germplasm_germplasmDbId_attributes}
 \alias{brapi_get_germplasm_germplasmDbId_attributes}
-\title{brapi_get_germplasm_germplasmDbId_attributes}
+\title{get /germplasm/\{germplasmDbId\}/attributes}
 \usage{
 brapi_get_germplasm_germplasmDbId_attributes(
   con = NULL,

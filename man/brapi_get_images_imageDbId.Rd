@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_images_imageDbId.R
 \name{brapi_get_images_imageDbId}
 \alias{brapi_get_images_imageDbId}
-\title{brapi_get_images_imageDbId}
+\title{get /images/\{imageDbId\}}
 \usage{
 brapi_get_images_imageDbId(con = NULL, imageDbId = "")
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_attributes.R
 \name{brapi_get_attributes}
 \alias{brapi_get_attributes}
-\title{brapi_get_attributes}
+\title{get /attributes}
 \usage{
 brapi_get_attributes(
   con = NULL,

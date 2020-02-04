@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_variables.R
 \name{brapi_get_variables}
 \alias{brapi_get_variables}
-\title{brapi_get_variables}
+\title{get /variables}
 \usage{
 brapi_get_variables(
   con = NULL,

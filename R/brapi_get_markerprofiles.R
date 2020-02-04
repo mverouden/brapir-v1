@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_markerprofiles
+#' get /markerprofiles
 #'
 #' @description
 #' Get the Marker Profiles

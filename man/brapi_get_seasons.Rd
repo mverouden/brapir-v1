@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_seasons.R
 \name{brapi_get_seasons}
 \alias{brapi_get_seasons}
-\title{brapi_get_seasons}
+\title{get /seasons}
 \usage{
 brapi_get_seasons(
   con = NULL,

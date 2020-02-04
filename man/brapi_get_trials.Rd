@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_trials.R
 \name{brapi_get_trials}
 \alias{brapi_get_trials}
-\title{brapi_get_trials}
+\title{get /trials}
 \usage{
 brapi_get_trials(
   con = NULL,

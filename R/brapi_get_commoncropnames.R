@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_commoncropnames
+#' get /commoncropnames
 #'
 #' @description
 #' Get the Common Crop Names

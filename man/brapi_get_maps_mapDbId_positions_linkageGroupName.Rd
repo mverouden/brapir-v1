@@ -3,7 +3,7 @@
 %   R/brapi_get_maps_mapDbId_positions_linkageGroupName.R
 \name{brapi_get_maps_mapDbId_positions_linkageGroupName}
 \alias{brapi_get_maps_mapDbId_positions_linkageGroupName}
-\title{brapi_get_maps_mapDbId_positions_linkageGroupName}
+\title{get /maps/\{mapDbId\}/positions/\{linkageGroupName\}}
 \usage{
 brapi_get_maps_mapDbId_positions_linkageGroupName(
   con = NULL,

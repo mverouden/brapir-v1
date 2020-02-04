@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_traits
+#' get /traits
 #'
 #' @description
 #' Get the Traits

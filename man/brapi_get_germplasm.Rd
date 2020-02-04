@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_germplasm.R
 \name{brapi_get_germplasm}
 \alias{brapi_get_germplasm}
-\title{brapi_get_germplasm}
+\title{get /germplasm}
 \usage{
 brapi_get_germplasm(
   con = NULL,

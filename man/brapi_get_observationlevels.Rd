@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_observationlevels.R
 \name{brapi_get_observationlevels}
 \alias{brapi_get_observationlevels}
-\title{brapi_get_observationlevels}
+\title{get /observationlevels}
 \usage{
 brapi_get_observationlevels(con = NULL, page = 0, pageSize = 1000)
 }

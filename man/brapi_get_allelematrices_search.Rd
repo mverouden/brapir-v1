@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_allelematrices-search.R
 \name{brapi_get_allelematrices_search}
 \alias{brapi_get_allelematrices_search}
-\title{GET /allelematrices-search}
+\title{get /allelematrices-search}
 \usage{
 brapi_get_allelematrices_search(
   con = NULL,

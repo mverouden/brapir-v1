@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_vendor_orders_orderId_plates
+#' get /vendor/orders/\{orderId\}/plates
 #'
 #' @description
 #' Get the Plates for a specific Order

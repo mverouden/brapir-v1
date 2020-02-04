@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_germplasm_searchResultsDbId
+#' get /search/germplasm/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Germplasm search request

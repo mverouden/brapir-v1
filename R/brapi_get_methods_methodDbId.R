@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_methods_methodDbId
+#' get /methods/\{methodDbId\}
 #'
 #' @description
 #' Get the details for a specific Method

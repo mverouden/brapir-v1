@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm_germplasmDbId_attributes
+#' get /germplasm/\{germplasmDbId\}/attributes
 #'
 #' @description
 #' Get the Germplasm Attributes associated with a specific Germplasm

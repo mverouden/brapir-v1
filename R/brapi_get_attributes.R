@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_attributes
+#' get /attributes
 #'
 #' @description
 #' Get the Germplasm Attributes

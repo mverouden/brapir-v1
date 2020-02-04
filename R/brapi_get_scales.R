@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_scales
+#' get /scales
 #'
 #' @description
 #' Get the Scales

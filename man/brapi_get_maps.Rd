@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_maps.R
 \name{brapi_get_maps}
 \alias{brapi_get_maps}
-\title{brapi_get_maps}
+\title{get /maps}
 \usage{
 brapi_get_maps(
   con = NULL,

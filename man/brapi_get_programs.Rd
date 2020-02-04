@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_programs.R
 \name{brapi_get_programs}
 \alias{brapi_get_programs}
-\title{brapi_get_programs}
+\title{get /programs}
 \usage{
 brapi_get_programs(
   con = NULL,

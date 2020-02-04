@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_images.R
 \name{brapi_get_images}
 \alias{brapi_get_images}
-\title{brapi_get_images}
+\title{get /images}
 \usage{
 brapi_get_images(
   con = NULL,

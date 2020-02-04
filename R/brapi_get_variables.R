@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_variables
+#' get /variables
 #'
 #' @description
 #' Get the Observation Variables

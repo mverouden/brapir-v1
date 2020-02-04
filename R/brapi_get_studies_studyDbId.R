@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studies_studyDbId
+#' get /studies/\{studyDbId\}
 #'
 #' @description
 #' Get the details for a specific Study

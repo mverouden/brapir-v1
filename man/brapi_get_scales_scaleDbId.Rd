@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_scales_scaleDbId.R
 \name{brapi_get_scales_scaleDbId}
 \alias{brapi_get_scales_scaleDbId}
-\title{brapi_get_scales_scaleDbId}
+\title{get /scales/\{scaleDbId\}}
 \usage{
 brapi_get_scales_scaleDbId(con = NULL, scaleDbId = "")
 }

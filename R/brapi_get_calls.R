@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_calls
+#' get /calls
 #'
 #' @description
 #' Get the list of implemented Calls

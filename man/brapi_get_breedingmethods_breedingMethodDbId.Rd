@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_breedingmethods_breedingMethodDbId.R
 \name{brapi_get_breedingmethods_breedingMethodDbId}
 \alias{brapi_get_breedingmethods_breedingMethodDbId}
-\title{brapi_get_breedingmethods_breedingMethodDbId}
+\title{get /breedingmethods/\{breedingMethodDbId\}}
 \usage{
 brapi_get_breedingmethods_breedingMethodDbId(
   con = NULL,

@@ -3,7 +3,7 @@
 %   R/brapi_get_search_observationtables_searchResultsDbId.R
 \name{brapi_get_search_observationtables_searchResultsDbId}
 \alias{brapi_get_search_observationtables_searchResultsDbId}
-\title{brapi_get_search_observationtables_searchResultsDbId}
+\title{get /search/observationtables/\{searchResultsDbId\}}
 \usage{
 brapi_get_search_observationtables_searchResultsDbId(
   con = NULL,

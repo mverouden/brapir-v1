@@ -1,5 +1,5 @@
 #' @title
-#' GET /allelematrices-search
+#' get /allelematrices-search
 #'
 #' @description
 #' Get the a Matrix of Allele data

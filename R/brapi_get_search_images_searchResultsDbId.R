@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_images_searchResultsDbId
+#' get /search/images/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of an Images search request

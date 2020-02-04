@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_trials
+#' get /trials
 #'
 #' @description
 #' Get the breeding Trials

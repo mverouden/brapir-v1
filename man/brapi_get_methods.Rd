@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_methods.R
 \name{brapi_get_methods}
 \alias{brapi_get_methods}
-\title{brapi_get_methods}
+\title{get /methods}
 \usage{
 brapi_get_methods(con = NULL, page = 0, pageSize = 1000)
 }

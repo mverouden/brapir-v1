@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_germplasm_germplasmDbId_progeny.R
 \name{brapi_get_germplasm_germplasmDbId_progeny}
 \alias{brapi_get_germplasm_germplasmDbId_progeny}
-\title{brapi_get_germplasm_germplasmDbId_progeny}
+\title{get /germplasm/\{germplasmDbId\}/progeny}
 \usage{
 brapi_get_germplasm_germplasmDbId_progeny(con = NULL, germplasmDbId = "")
 }

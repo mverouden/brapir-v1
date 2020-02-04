@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm_germplasmDbId
+#' get /germplasm/\{germplasmDbId\}
 #'
 #' @description
 #' Get the details of a specific Germplasm

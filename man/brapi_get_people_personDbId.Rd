@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_people_personDbId.R
 \name{brapi_get_people_personDbId}
 \alias{brapi_get_people_personDbId}
-\title{brapi_get_people_personDbId}
+\title{get /people/\{personDbId\}}
 \usage{
 brapi_get_people_personDbId(con = NULL, personDbId = "")
 }

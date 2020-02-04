@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_people_personDbId
+#' get /people/\{personDbId\}
 #'
 #' @description
 #' Get the details for a specific Person

@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm_germplasmDbId_pedigree
+#' get /germplasm/\{germplasmDbId\}/pedigree
 #'
 #' @description
 #' Get the pedigree details of a specific Germplasm

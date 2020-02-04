@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_vendor_plates_submissionId.R
 \name{brapi_get_vendor_plates_submissionId}
 \alias{brapi_get_vendor_plates_submissionId}
-\title{brapi_get_vendor_plates_submissionId}
+\title{get /vendor/plates/\{submissionId\}}
 \usage{
 brapi_get_vendor_plates_submissionId(con = NULL, submissionId = "")
 }

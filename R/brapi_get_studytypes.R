@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studytypes
+#' get /studytypes
 #'
 #' @description
 #' Get the Study Types

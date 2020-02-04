@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_studies.R
 \name{brapi_get_studies}
 \alias{brapi_get_studies}
-\title{brapi_get_studies}
+\title{get /studies}
 \usage{
 brapi_get_studies(
   con = NULL,

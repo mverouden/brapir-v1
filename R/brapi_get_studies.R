@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studies
+#' get /studies
 #'
 #' @description
 #' Get the Studies

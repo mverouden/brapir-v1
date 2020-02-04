@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_breedingmethods
+#' get /breedingmethods
 #'
 #' @description
 #' Get the Breeding Methods

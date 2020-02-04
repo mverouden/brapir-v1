@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_scales.R
 \name{brapi_get_scales}
 \alias{brapi_get_scales}
-\title{brapi_get_scales}
+\title{get /scales}
 \usage{
 brapi_get_scales(con = NULL, page = 0, pageSize = 1000)
 }

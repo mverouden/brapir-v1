@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_lists.R
 \name{brapi_get_lists}
 \alias{brapi_get_lists}
-\title{brapi_get_lists}
+\title{get /lists}
 \usage{
 brapi_get_lists(
   con = NULL,

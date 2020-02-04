@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_lists
+#' get /lists
 #'
 #' @description
 #' Get the List Summaries

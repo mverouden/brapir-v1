@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_markers_markerDbId.R
 \name{brapi_get_markers_markerDbId}
 \alias{brapi_get_markers_markerDbId}
-\title{brapi_get_markers_markerDbId}
+\title{get /markers/\{markerDbId\}}
 \usage{
 brapi_get_markers_markerDbId(con = NULL, markerDbId = "")
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_calls.R
 \name{brapi_get_calls}
 \alias{brapi_get_calls}
-\title{brapi_get_calls}
+\title{get /calls}
 \usage{
 brapi_get_calls(con = NULL, dataType = "", page = 0, pageSize = 1000)
 }

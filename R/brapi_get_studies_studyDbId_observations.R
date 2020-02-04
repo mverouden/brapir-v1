@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studies_studyDbId_observations
+#' get /studies/\{studyDbId\}/observations
 #'
 #' @description
 #' Get the Observations associated with a specific Study

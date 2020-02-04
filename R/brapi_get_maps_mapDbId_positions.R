@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_maps_mapDbId_positions
+#' get /maps/\{mapDbId\}/positions
 #'
 #' @description
 #' Get the positions of Markers inside a specific Genomic Map

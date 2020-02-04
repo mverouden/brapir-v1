@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_vendor_orders_orderId_status
+#' get /vendor/orders/\{orderId\}/status
 #'
 #' @description
 #' Get the status of a specific Order

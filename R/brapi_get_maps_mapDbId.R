@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_maps_mapDbId
+#' get /maps/\{mapDbId\}
 #'
 #' @description
 #' Get the details of a specific Genomic Map

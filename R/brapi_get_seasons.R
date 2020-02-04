@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_seasons
+#' get /seasons
 #'
 #' @description
 #' Get the Seasons

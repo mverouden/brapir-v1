@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_attributes_categories
+#' get /attributes/categories
 #'
 #' @description
 #' Get the Categories of Germplasm Attributes

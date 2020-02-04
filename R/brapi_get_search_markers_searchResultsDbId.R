@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_markers_searchResultsDbId
+#' get /search/markers/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Markers search request

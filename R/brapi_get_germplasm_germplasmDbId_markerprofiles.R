@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm_germplasmDbId_markerprofiles
+#' get /germplasm/\{germplasmDbId\}/markerprofiles
 #'
 #' @description
 #' Get the Marker Profiles associated with a specific Germplasm

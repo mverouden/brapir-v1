@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm
+#' get /germplasm
 #'
 #' @description
 #' Get the Germplasm

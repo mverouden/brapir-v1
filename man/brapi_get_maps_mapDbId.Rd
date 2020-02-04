@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_maps_mapDbId.R
 \name{brapi_get_maps_mapDbId}
 \alias{brapi_get_maps_mapDbId}
-\title{brapi_get_maps_mapDbId}
+\title{get /maps/\{mapDbId\}}
 \usage{
 brapi_get_maps_mapDbId(con = NULL, mapDbId = "", page = 0, pageSize = 1000)
 }

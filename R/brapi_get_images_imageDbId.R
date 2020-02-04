@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_images_imageDbId
+#' get /images/\{imageDbId\}
 #'
 #' @description
 #' Get the an image meta data summary

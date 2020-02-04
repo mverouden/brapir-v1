@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_locations
+#' get /locations
 #'
 #' @description
 #' Get the Locations

@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_samples_sampleDbId
+#' get /samples/\{sampleDbId\}
 #'
 #' @description
 #' Get the details of a specific Sample

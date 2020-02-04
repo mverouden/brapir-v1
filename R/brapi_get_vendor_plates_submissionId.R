@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_vendor_plates_submissionId
+#' get /vendor/plates/\{submissionId\}
 #'
 #' @description
 #' Get the data for a submitted set of plates

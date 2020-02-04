@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_locations_locationDbId
+#' get /locations/\{locationDbId\}
 #'
 #' @description
 #' Get the details of a specific Location

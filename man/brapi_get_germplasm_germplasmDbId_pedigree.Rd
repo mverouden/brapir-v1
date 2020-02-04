@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_germplasm_germplasmDbId_pedigree.R
 \name{brapi_get_germplasm_germplasmDbId_pedigree}
 \alias{brapi_get_germplasm_germplasmDbId_pedigree}
-\title{brapi_get_germplasm_germplasmDbId_pedigree}
+\title{get /germplasm/\{germplasmDbId\}/pedigree}
 \usage{
 brapi_get_germplasm_germplasmDbId_pedigree(
   con = NULL,

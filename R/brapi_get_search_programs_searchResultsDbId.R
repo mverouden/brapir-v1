@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_programs_searchResultsDbId
+#' get /search/programs/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Programs search request

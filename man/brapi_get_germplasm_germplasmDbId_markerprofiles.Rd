@@ -3,7 +3,7 @@
 %   R/brapi_get_germplasm_germplasmDbId_markerprofiles.R
 \name{brapi_get_germplasm_germplasmDbId_markerprofiles}
 \alias{brapi_get_germplasm_germplasmDbId_markerprofiles}
-\title{brapi_get_germplasm_germplasmDbId_markerprofiles}
+\title{get /germplasm/\{germplasmDbId\}/markerprofiles}
 \usage{
 brapi_get_germplasm_germplasmDbId_markerprofiles(
   con = NULL,

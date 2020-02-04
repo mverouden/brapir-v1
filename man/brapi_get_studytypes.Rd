@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_studytypes.R
 \name{brapi_get_studytypes}
 \alias{brapi_get_studytypes}
-\title{brapi_get_studytypes}
+\title{get /studytypes}
 \usage{
 brapi_get_studytypes(con = NULL, studyTypeDbId = "", page = 0, pageSize = 1000)
 }

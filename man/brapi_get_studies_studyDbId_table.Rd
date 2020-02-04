@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_studies_studyDbId_table.R
 \name{brapi_get_studies_studyDbId_table}
 \alias{brapi_get_studies_studyDbId_table}
-\title{brapi_get_studies_studyDbId_table}
+\title{get /studies/\{studyDbId\}/table}
 \usage{
 brapi_get_studies_studyDbId_table(
   con = NULL,

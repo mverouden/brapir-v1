@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_lists_listDbId.R
 \name{brapi_get_lists_listDbId}
 \alias{brapi_get_lists_listDbId}
-\title{brapi_get_lists_listDbId}
+\title{get /lists/\{listDbId\}}
 \usage{
 brapi_get_lists_listDbId(con = NULL, listDbId = "")
 }

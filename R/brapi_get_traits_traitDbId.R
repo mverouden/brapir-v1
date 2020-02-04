@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_traits_traitDbId
+#' get /traits/\{traitDbId\}
 #'
 #' @description
 #' Get the details of a specific Trait

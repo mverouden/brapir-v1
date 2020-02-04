@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_maps
+#' get /maps
 #'
 #' @description
 #' Get the Genomic Maps

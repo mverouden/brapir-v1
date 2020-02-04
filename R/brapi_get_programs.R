@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_programs
+#' get /programs
 #'
 #' @description
 #' Get the breeding Programs

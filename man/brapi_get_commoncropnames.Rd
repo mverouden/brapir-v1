@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_commoncropnames.R
 \name{brapi_get_commoncropnames}
 \alias{brapi_get_commoncropnames}
-\title{brapi_get_commoncropnames}
+\title{get /commoncropnames}
 \usage{
 brapi_get_commoncropnames(con = NULL, page = 0, pageSize = 1000)
 }

@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studies_studyDbId_layouts
+#' get /studies/\{studyDbId\}/layouts
 #'
 #' @description
 #' Get the plot layout details for a specific Study

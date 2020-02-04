@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_markers_markerDbId
+#' get /markers/\{markerDbId\}
 #'
 #' @description
 #' Get the details for a specific Marker

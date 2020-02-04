@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_studies_searchResultsDbId
+#' get /search/studies/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Studies search request

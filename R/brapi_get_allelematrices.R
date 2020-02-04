@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_allelematrices
+#' get /allelematrices
 #'
 #' @description
 #' Get the Allele Matrix summaries

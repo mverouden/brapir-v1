@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_observationlevels
+#' get /observationlevels
 #'
 #' @description
 #' Get the Observation Levels

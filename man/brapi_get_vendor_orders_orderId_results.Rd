@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_vendor_orders_orderId_results.R
 \name{brapi_get_vendor_orders_orderId_results}
 \alias{brapi_get_vendor_orders_orderId_results}
-\title{brapi_get_vendor_orders_orderId_results}
+\title{get /vendor/orders/\{orderId\}/results}
 \usage{
 brapi_get_vendor_orders_orderId_results(con = NULL, orderId = "")
 }

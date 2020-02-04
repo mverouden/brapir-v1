@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_attributes_categories.R
 \name{brapi_get_attributes_categories}
 \alias{brapi_get_attributes_categories}
-\title{brapi_get_attributes_categories}
+\title{get /attributes/categories}
 \usage{
 brapi_get_attributes_categories(con = NULL, page = 0, pageSize = 1000)
 }

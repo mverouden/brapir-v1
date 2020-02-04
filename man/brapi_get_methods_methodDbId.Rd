@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_methods_methodDbId.R
 \name{brapi_get_methods_methodDbId}
 \alias{brapi_get_methods_methodDbId}
-\title{brapi_get_methods_methodDbId}
+\title{get /methods/\{methodDbId\}}
 \usage{
 brapi_get_methods_methodDbId(con = NULL, methodDbId = "")
 }

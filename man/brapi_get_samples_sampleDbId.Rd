@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_samples_sampleDbId.R
 \name{brapi_get_samples_sampleDbId}
 \alias{brapi_get_samples_sampleDbId}
-\title{brapi_get_samples_sampleDbId}
+\title{get /samples/\{sampleDbId\}}
 \usage{
 brapi_get_samples_sampleDbId(con = NULL, sampleDbId = "")
 }

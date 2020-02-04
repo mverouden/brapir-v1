@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_maps_mapDbId_positions_linkageGroupName
+#' get /maps/\{mapDbId\}/positions/\{linkageGroupName\}
 #'
 #' @description
 #' Get the positions of Markers inside a specific Linkage Group

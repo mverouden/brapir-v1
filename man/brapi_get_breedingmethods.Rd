@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_breedingmethods.R
 \name{brapi_get_breedingmethods}
 \alias{brapi_get_breedingmethods}
-\title{brapi_get_breedingmethods}
+\title{get /breedingmethods}
 \usage{
 brapi_get_breedingmethods(con = NULL, page = 0, pageSize = 1000)
 }

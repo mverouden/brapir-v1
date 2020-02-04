@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_traits_traitDbId.R
 \name{brapi_get_traits_traitDbId}
 \alias{brapi_get_traits_traitDbId}
-\title{brapi_get_traits_traitDbId}
+\title{get /traits/\{traitDbId\}}
 \usage{
 brapi_get_traits_traitDbId(con = NULL, traitDbId = "")
 }

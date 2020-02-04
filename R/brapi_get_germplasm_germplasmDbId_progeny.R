@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm_germplasmDbId_progeny
+#' get /germplasm/\{germplasmDbId\}/progeny
 #'
 #' @description
 #' Get the progeny details of a specific Germplasm

@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_markers.R
 \name{brapi_get_markers}
 \alias{brapi_get_markers}
-\title{brapi_get_markers}
+\title{get /markers}
 \usage{
 brapi_get_markers(
   con = NULL,

@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_people.R
 \name{brapi_get_people}
 \alias{brapi_get_people}
-\title{brapi_get_people}
+\title{get /people}
 \usage{
 brapi_get_people(
   con = NULL,

@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_search_germplasm_searchResultsDbId.R
 \name{brapi_get_search_germplasm_searchResultsDbId}
 \alias{brapi_get_search_germplasm_searchResultsDbId}
-\title{brapi_get_search_germplasm_searchResultsDbId}
+\title{get /search/germplasm/\{searchResultsDbId\}}
 \usage{
 brapi_get_search_germplasm_searchResultsDbId(
   con = NULL,

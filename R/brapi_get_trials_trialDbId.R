@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_trials_trialDbId
+#' get /trials/\{trialDbId\}
 #'
 #' @description
 #' Get the details of a specific Trial

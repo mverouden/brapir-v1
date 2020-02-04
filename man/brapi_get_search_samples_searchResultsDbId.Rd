@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_search_samples_searchResultsDbId.R
 \name{brapi_get_search_samples_searchResultsDbId}
 \alias{brapi_get_search_samples_searchResultsDbId}
-\title{brapi_get_search_samples_searchResultsDbId}
+\title{get /search/samples/\{searchResultsDbId\}}
 \usage{
 brapi_get_search_samples_searchResultsDbId(
   con = NULL,

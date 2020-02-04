@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_scales_scaleDbId
+#' get /scales/\{scaleDbId\}
 #'
 #' @description
 #' Get the details of a specific Scale

@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_germplasm_germplasmDbId_mcpd
+#' get /germplasm/\{germplasmDbId\}/mcpd
 #'
 #' @description
 #' Get the details of a specifc Germplasm in MCPD format

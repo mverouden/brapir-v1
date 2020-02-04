@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_allelematrices.R
 \name{brapi_get_allelematrices}
 \alias{brapi_get_allelematrices}
-\title{brapi_get_allelematrices}
+\title{get /allelematrices}
 \usage{
 brapi_get_allelematrices(con = NULL, studyDbId = "", page = 0, pageSize = 1000)
 }

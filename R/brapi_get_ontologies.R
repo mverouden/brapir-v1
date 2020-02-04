@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_ontologies
+#' get /ontologies
 #'
 #' @description
 #' Get the Ontologies

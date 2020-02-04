@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_locations.R
 \name{brapi_get_locations}
 \alias{brapi_get_locations}
-\title{brapi_get_locations}
+\title{get /locations}
 \usage{
 brapi_get_locations(con = NULL, locationType = "", page = 0, pageSize = 1000)
 }

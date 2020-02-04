@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_markerprofiles_markerProfileDbId.R
 \name{brapi_get_markerprofiles_markerProfileDbId}
 \alias{brapi_get_markerprofiles_markerProfileDbId}
-\title{brapi_get_markerprofiles_markerProfileDbId}
+\title{get /markerprofiles/\{markerProfileDbId\}}
 \usage{
 brapi_get_markerprofiles_markerProfileDbId(
   con = NULL,

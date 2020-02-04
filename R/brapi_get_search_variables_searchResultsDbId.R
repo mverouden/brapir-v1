@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_search_variables_searchResultsDbId
+#' get /search/variables/\{searchResultsDbId\}
 #'
 #' @description
 #' Get the results of a Observation Variable search request

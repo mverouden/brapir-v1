@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_vendor_specifications.R
 \name{brapi_get_vendor_specifications}
 \alias{brapi_get_vendor_specifications}
-\title{brapi_get_vendor_specifications}
+\title{get /vendor/specifications}
 \usage{
 brapi_get_vendor_specifications(con = NULL)
 }

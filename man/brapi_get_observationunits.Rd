@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_observationunits.R
 \name{brapi_get_observationunits}
 \alias{brapi_get_observationunits}
-\title{brapi_get_observationunits}
+\title{get /observationunits}
 \usage{
 brapi_get_observationunits(
   con = NULL,

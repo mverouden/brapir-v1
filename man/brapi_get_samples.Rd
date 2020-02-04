@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_samples.R
 \name{brapi_get_samples}
 \alias{brapi_get_samples}
-\title{brapi_get_samples}
+\title{get /samples}
 \usage{
 brapi_get_samples(
   con = NULL,

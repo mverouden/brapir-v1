@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_methods
+#' get /methods
 #'
 #' @description
 #' Get the Methods

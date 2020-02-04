@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_observationunits
+#' get /observationunits
 #'
 #' @description
 #' Get the Observation Units
