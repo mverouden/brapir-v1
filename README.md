@@ -12,7 +12,8 @@
 -->
 
 This version is still under development. The implementation sometimes
-changes minor details.
+changes minor details with respect to the GET calls. The POST and PUT
+calls are under construction\!
 
 Current support is mainly for BrAPI version 1.3
 
