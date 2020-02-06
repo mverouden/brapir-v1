@@ -17,8 +17,8 @@ calls are under construction\!
 
 Current support is mainly for BrAPI version 1.3
 
-Development of version 2.0 will start shortly after the Production
-release.
+Development of version 2.0 will start shortly after the Production and
+test-server (<https://test-server.brapi.org/brapi/v2/>) release.
 
 <!--A 176 tests have been implemented to check on compliance.-->
 
