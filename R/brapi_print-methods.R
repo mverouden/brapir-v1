@@ -15,7 +15,7 @@
 #' @export
 print.brapi_con <- function(x, ...) {
   # Print in console
-  txt <- paste0("Crop = ", x$commoncropname, "\n\n")
+  txt <- paste0("Common Crop Name = ", x$commoncropname, "\n\n")
   txt <- paste0(txt, "Address:Port = ", x$db, ":", x$port, "\n")
   cat(paste0(txt, "User = ", x$user, "\n"))
   return(invisible())
