@@ -52,6 +52,7 @@ brapi_get_commoncropnames <- function(con = NULL, page = 0, pageSize = 1000) {
     cont <- httr::content(x = resp, as = "text", encoding = "UTF-8")
     ## Convert the content object into a data.frame
     out <- brapi_result2df(cont, usedArgs)
+    colnames(out) <- "Common Crop Names"
   })
   ## Set class of output
   class(out) <- c(class(out), "brapi_get_commoncropnames")
