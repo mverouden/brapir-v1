@@ -21,7 +21,7 @@ brapi_POST_callBody <- function(usedArgs, reqArgs) {
     if (all(bodyArgs[[i]] != "")) {
       if (inherits(x = bodyArgs[[i]], what = "character") &&
           length(bodyArgs[[i]]) == 1 &&
-          grepl(pattern = "(Classes)|(Genus)|(Ids)|(Links)|(Names)|(Numbers)|(PUIs)|(Species)|(synonyms)|(Terms)|(tions)|(Xrefs)|(ypes)|(markerDbId)|(markerProfileDbId)|(matrixDbId)",
+          grepl(pattern = "(Classes)|(Genus)|(Ids)|(Links)|(Names)|(Numbers)|(PUIs)|(Species)|(synonyms)|(Terms)|(tions)|(Xrefs)|(ypes)|(markerDbId)|(markerProfileDbId)|(matrixDbId)|(objectives)",
                 x = names(bodyArgs[i]))) {
         bodyList[[j]] <- as.array(bodyArgs[[i]])
       } else if (inherits(x = bodyArgs[[i]], what = "character") && length(bodyArgs[[i]]) > 1) {
