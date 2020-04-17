@@ -135,7 +135,8 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_orders}()},
 \code{\link{brapi_get_vendor_plates_submissionId}()},
 \code{\link{brapi_get_vendor_specifications}()},
-\code{\link{brapi_post_search_programs}()}
+\code{\link{brapi_post_search_programs}()},
+\code{\link{brapi_post_search_studies}()}
 
 Other Studies: 
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},
@@ -147,7 +148,8 @@ Other Studies:
 \code{\link{brapi_get_studies_studyDbId_observationvariables}()},
 \code{\link{brapi_get_studies_studyDbId_table}()},
 \code{\link{brapi_get_studies_studyDbId}()},
-\code{\link{brapi_get_studytypes}()}
+\code{\link{brapi_get_studytypes}()},
+\code{\link{brapi_post_search_studies}()}
 }
 \author{
 brapir generator package
