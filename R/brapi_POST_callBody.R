@@ -26,6 +26,8 @@ brapi_POST_callBody <- function(usedArgs, reqArgs) {
         bodyList[[j]] <- as.array(bodyArgs[[i]])
       } else if (inherits(x = bodyArgs[[i]], what = "character") && length(bodyArgs[[i]]) > 1) {
         bodyList[[j]] <- as.array(bodyArgs[[i]])
+      } else if (is.logical(bodyArgs[[i]])) {
+        bodyList[[j]] <- tolower(bodyArgs[[i]])
       } else {
         bodyList[[j]] <- bodyArgs[[i]]
       }
