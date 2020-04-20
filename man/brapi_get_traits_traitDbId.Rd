@@ -106,7 +106,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
 \code{\link{brapi_post_search_programs}()},
-\code{\link{brapi_post_search_studies}()}
+\code{\link{brapi_post_search_studies}()},
+\code{\link{brapi_post_search_variables}()}
 
 Other Observation Variables: 
 \code{\link{brapi_get_methods_methodDbId}()},
@@ -118,7 +119,8 @@ Other Observation Variables:
 \code{\link{brapi_get_studies_studyDbId_observationvariables}()},
 \code{\link{brapi_get_traits}()},
 \code{\link{brapi_get_variables_observationVariableDbId}()},
-\code{\link{brapi_get_variables}()}
+\code{\link{brapi_get_variables}()},
+\code{\link{brapi_post_search_variables}()}
 }
 \author{
 brapir generator package

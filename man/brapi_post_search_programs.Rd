@@ -127,7 +127,8 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
-\code{\link{brapi_post_search_studies}()}
+\code{\link{brapi_post_search_studies}()},
+\code{\link{brapi_post_search_variables}()}
 
 Other Programs: 
 \code{\link{brapi_get_programs}()},
@@ -145,7 +146,8 @@ Other Search Services:
 \code{\link{brapi_get_search_variables_searchResultsDbId}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
-\code{\link{brapi_post_search_studies}()}
+\code{\link{brapi_post_search_studies}()},
+\code{\link{brapi_post_search_variables}()}
 }
 \author{
 brapir generator package
