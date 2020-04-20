@@ -106,6 +106,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_plates_submissionId}()},
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_search_observationtables}()},
+\code{\link{brapi_post_search_observationunits}()},
 \code{\link{brapi_post_search_programs}()},
 \code{\link{brapi_post_search_studies}()}
 
@@ -123,6 +124,7 @@ Other Search Services:
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},
 \code{\link{brapi_get_search_variables_searchResultsDbId}()},
 \code{\link{brapi_post_search_observationtables}()},
+\code{\link{brapi_post_search_observationunits}()},
 \code{\link{brapi_post_search_programs}()},
 \code{\link{brapi_post_search_studies}()}
 }

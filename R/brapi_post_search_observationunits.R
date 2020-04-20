@@ -1,8 +1,8 @@
 #' @title
-#' post /search/observationtables
+#' post /search/observationunits
 #'
 #' @description
-#' Submit a search request for a table of Observations
+#' Submit a search request for Observation Units
 #'
 #' @param con list; required: TRUE; BrAPI connection object
 #' @param germplasmDbIds vector of type character; required: FALSE; The name or synonym of external genebank accession identifiers; default: &quot;&quot;, when using multiple values supply as c(&quot;value1&quot;, &quot;value2&quot;).
@@ -24,14 +24,14 @@
 #'
 #' @author brapir generator package
 #'
-#' @references [BrAPI SwaggerHub](https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/post_search_observationtables )
+#' @references [BrAPI SwaggerHub](https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/post_search_observationunits )
 #'
 #' @family brapi_1.3
 #' @family Observations
 #' @family Search Services
 #'
 #' @export
-brapi_post_search_observationtables <- function(con = NULL, germplasmDbIds = '', locationDbIds = '', observationLevel = '', observationTimeStampRangeEnd = '', observationTimeStampRangeStart = '', observationVariableDbIds = '', page = 0, pageSize = 1000, programDbIds = '', seasonDbIds = '', studyDbIds = '', trialDbIds = '') {
+brapi_post_search_observationunits <- function(con = NULL, germplasmDbIds = '', locationDbIds = '', observationLevel = '', observationTimeStampRangeEnd = '', observationTimeStampRangeStart = '', observationVariableDbIds = '', page = 0, pageSize = 1000, programDbIds = '', seasonDbIds = '', studyDbIds = '', trialDbIds = '') {
   ## Create a list of used arguments
   usedArgs <- brapi_usedArgs(origValues = FALSE)
   ## Check if BrAPI server can be reached given the connection details
@@ -40,7 +40,7 @@ brapi_post_search_observationtables <- function(con = NULL, germplasmDbIds = '',
   brapi_checkArgs(usedArgs, reqArgs = "")
   ## Obtain the call url
   callurl <- brapi_POST_callURL(usedArgs = usedArgs,
-                                callPath = "/search/observationtables",
+                                callPath = "/search/observationunits",
                                 reqArgs = "",
                                 packageName = "BrAPI",
                                 callVersion = 1.3)
@@ -56,7 +56,7 @@ brapi_post_search_observationtables <- function(con = NULL, germplasmDbIds = '',
     out <- brapi_result2df(cont, usedArgs)
   })
   ## Set class of output
-  class(out) <- c(class(out), "brapi_post_search_observationtables")
+  class(out) <- c(class(out), "brapi_post_search_observationunits")
   ## Show pagination information from metadata
   brapi_serverinfo_metadata(cont)
   return(out)
