@@ -60,7 +60,7 @@ Submit a search request for Observation Variables
 Search observation variables.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/post_search_variables}{BrAPI SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/post_search_variables }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

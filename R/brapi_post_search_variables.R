@@ -25,7 +25,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references [BrAPI SwaggerHub](https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/post_search_variables )
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation%20Variables/post_search_variables }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Observation Variables
