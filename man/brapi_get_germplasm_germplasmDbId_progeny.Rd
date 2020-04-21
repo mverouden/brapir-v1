@@ -96,6 +96,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_orders}()},
 \code{\link{brapi_get_vendor_plates_submissionId}()},
 \code{\link{brapi_get_vendor_specifications}()},
+\code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
 \code{\link{brapi_post_search_programs}()},
@@ -112,7 +113,8 @@ Other Germplasm:
 \code{\link{brapi_get_germplasm_germplasmDbId}()},
 \code{\link{brapi_get_germplasm}()},
 \code{\link{brapi_get_search_germplasm_searchResultsDbId}()},
-\code{\link{brapi_get_studies_studyDbId_germplasm}()}
+\code{\link{brapi_get_studies_studyDbId_germplasm}()},
+\code{\link{brapi_post_search_germplasm}()}
 }
 \author{
 brapir generator package
