@@ -23,7 +23,7 @@ Get the Ontologies
 Call to retrieve a list of observation variable ontologies available in the system.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_ontologies}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_ontologies }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

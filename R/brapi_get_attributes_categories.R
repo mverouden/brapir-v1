@@ -14,7 +14,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm%20Attributes/get_attributes_categories}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm%20Attributes/get_attributes_categories }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Germplasm Attributes

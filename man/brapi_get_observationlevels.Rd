@@ -25,7 +25,7 @@ Call to retrieve the list of supported observation levels.
 Observation levels indicate the granularity level at which the measurements are taken. The values are used to supply the \code{observationLevel} parameter in the observation unit details call.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_observationlevels}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_observationlevels }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

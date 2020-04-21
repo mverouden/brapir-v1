@@ -51,7 +51,7 @@ Allele encodings:
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_markerprofiles__markerProfileDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_markerprofiles__markerProfileDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

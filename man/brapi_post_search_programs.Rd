@@ -49,7 +49,7 @@ Advanced searching for the programs resource.
 See Search Services for additional implementation details.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/post_search_programs}{BrAPI SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/post_search_programs }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -33,7 +33,7 @@ Get the Observations associated with a specific Study
 Retrieve all observations where there are measurements for the given observation variables. observationTimestamp should be ISO8601 format with timezone -> YYYY-MM-DDThh:mm:ss+hhmm
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observations}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observations }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

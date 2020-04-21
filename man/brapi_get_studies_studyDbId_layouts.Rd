@@ -34,7 +34,7 @@ Retrieve the plot layout of the study with studyDbId.
 For each observationUnit within a study, return the \code{block}, \code{replicate}, and \code{entryType} values as well as the \code{X} and \code{Y} coordinates. \code{entryType} can be "check", "test", or "filler". Also return some human readable meta data about the observationUnit and germplasm.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__layouts}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__layouts }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

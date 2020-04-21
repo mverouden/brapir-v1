@@ -22,7 +22,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references [BrAPI SwaggerHub](https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/post_search_programs )
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/post_search_programs }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Programs

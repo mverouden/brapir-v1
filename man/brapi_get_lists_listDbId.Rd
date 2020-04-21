@@ -21,7 +21,7 @@ Get the details of a specific List
 Get a specific generic lists
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Lists/get_lists__listDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Lists/get_lists__listDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

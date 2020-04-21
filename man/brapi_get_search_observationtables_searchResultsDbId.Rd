@@ -38,7 +38,7 @@ Returns a list of observationUnit with the observed Phenotypes.
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_search_observationtables__searchResultsDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_search_observationtables__searchResultsDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

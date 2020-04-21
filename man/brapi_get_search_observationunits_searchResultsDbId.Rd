@@ -31,7 +31,7 @@ Observation Unit Search
 Returns a list of observationUnit with the observed Phenotypes.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_search_observationunits__searchResultsDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_search_observationunits__searchResultsDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

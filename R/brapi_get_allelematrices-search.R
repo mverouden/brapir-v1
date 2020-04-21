@@ -25,7 +25,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker%20Profiles/get_allelematrices_search}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker%20Profiles/get_allelematrices_search }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Marker Profiles

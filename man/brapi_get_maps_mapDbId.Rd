@@ -25,7 +25,7 @@ Get the details of a specific Genomic Map
 Provides the number of markers on each linkageGroup and the max position on the linkageGroup
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome\%20Maps/get_maps__mapDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome\%20Maps/get_maps__mapDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

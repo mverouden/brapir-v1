@@ -25,7 +25,7 @@ Get the Study Types
 Call to retrieve the list of study types.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studytypes}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studytypes }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

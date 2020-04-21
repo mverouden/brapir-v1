@@ -35,7 +35,7 @@ Addresses these needs:
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_search_germplasm__searchResultsDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_search_germplasm__searchResultsDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

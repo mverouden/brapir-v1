@@ -23,7 +23,7 @@ Get the Breeding Methods
 Get the list of germplasm breeding methods available in a system.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_breedingmethods}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_breedingmethods }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

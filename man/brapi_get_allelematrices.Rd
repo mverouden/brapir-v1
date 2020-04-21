@@ -27,7 +27,7 @@ provides a list of available matrices, filtered by study supplied as
 studyDbId.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_allelematrices}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_allelematrices }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

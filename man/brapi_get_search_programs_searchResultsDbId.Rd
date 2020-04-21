@@ -30,7 +30,7 @@ Get the results of a Programs search request
 Advanced searching for the programs resource.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/get_search_programs__searchResultsDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/get_search_programs__searchResultsDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

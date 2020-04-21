@@ -30,7 +30,7 @@ Get the results of a Observation Variable search request
 Search observation variables.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_search_variables__searchResultsDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_search_variables__searchResultsDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

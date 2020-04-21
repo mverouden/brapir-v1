@@ -27,7 +27,7 @@ Get the Observations for a specific Study in a table format
 Retrieve the details of the study required for field data collection. Includes actual trait data.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__table}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__table }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

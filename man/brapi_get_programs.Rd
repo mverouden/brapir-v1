@@ -36,7 +36,7 @@ Get the breeding Programs
 Call to retrieve a list of programs.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/get_programs}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Programs/get_programs }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

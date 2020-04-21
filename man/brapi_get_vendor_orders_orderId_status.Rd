@@ -21,7 +21,7 @@ Get the status of a specific Order
 Retrieve the current status of an order being processed
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_orders__orderId__status}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_orders__orderId__status }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

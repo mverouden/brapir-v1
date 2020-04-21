@@ -17,7 +17,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observations}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observations }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Studies

@@ -30,7 +30,7 @@ Get the pedigree details of a specific Germplasm
 Get the parentage information of a specific Germplasm
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId__pedigree}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId__pedigree }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

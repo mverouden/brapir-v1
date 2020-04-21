@@ -40,7 +40,7 @@ Get the positions of Markers inside a specific Linkage Group
 All the markers in a specific Linkage Group (aka Chromasome) inside a particular Map, ordered by position.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome\%20Maps/get_maps__mapDbId__positions__linkageGroupName_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome\%20Maps/get_maps__mapDbId__positions__linkageGroupName_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

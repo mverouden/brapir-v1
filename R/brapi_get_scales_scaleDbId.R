@@ -19,7 +19,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation%20Variables/get_scales__scaleDbId_}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation%20Variables/get_scales__scaleDbId_ }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Observation Variables

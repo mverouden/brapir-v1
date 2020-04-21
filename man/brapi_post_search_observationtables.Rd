@@ -57,7 +57,7 @@ Submit a search request for a table of Observations
 Returns a list of observationUnit with the observed Phenotypes. observationTimeStampRangeStart and observationTimeStampRangeEnd need to be specified in \href{https://en.wikipedia.org/wiki/ISO_8601}{ISO 8601} formatting.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/post_search_observationtables}{BrAPI SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/post_search_observationtables }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -30,7 +30,7 @@ Get a list of locations.
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Locations/get_locations}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Locations/get_locations }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

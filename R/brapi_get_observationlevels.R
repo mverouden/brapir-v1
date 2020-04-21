@@ -17,7 +17,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_observationlevels}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_observationlevels }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Observations

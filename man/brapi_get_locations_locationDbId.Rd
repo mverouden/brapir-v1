@@ -25,7 +25,7 @@ Get details for a location:
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Locations/get_locations__locationDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Locations/get_locations__locationDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

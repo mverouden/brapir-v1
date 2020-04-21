@@ -30,7 +30,7 @@ Get the Germplasm Attributes
 List available attributes.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm\%20Attributes/get_attributes}{BrAPI SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm\%20Attributes/get_attributes }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

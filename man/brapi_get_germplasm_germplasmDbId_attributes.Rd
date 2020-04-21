@@ -33,7 +33,7 @@ Get the Germplasm Attributes associated with a specific Germplasm
 Values for all attributes by default.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm\%20Attributes/get_germplasm__germplasmDbId__attributes}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm\%20Attributes/get_germplasm__germplasmDbId__attributes }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

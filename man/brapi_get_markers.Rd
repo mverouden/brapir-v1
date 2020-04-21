@@ -41,7 +41,7 @@ Other service requests use the servers internal \code{markerDbId}. This service 
 If there is none, an empty array is returned. If there is one or more than one match, returns an array of all marker records that match the search criteria.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Markers/get_markers}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Markers/get_markers }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

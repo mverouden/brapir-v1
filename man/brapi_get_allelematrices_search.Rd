@@ -54,7 +54,7 @@ number of markers. Use this `GET`` when parameter size is less than 2K bytes.
 This method may support asynchronous processing.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_allelematrices_search}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_allelematrices_search }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

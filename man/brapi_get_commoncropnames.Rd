@@ -33,7 +33,7 @@ The common crop name can be used as a search parameter for Programs, Studies,
 and Germplasm.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Crops/get_commoncropnames}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Crops/get_commoncropnames }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

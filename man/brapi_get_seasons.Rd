@@ -42,7 +42,7 @@ A season is made of 2 parts:
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_seasons}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_seasons }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

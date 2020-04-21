@@ -21,7 +21,7 @@ Get the progeny details of a specific Germplasm
 Get the germplasmDbIds for all the Progeny of a particular germplasm.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId__progeny}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId__progeny }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

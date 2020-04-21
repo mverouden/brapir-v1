@@ -21,7 +21,7 @@ Get the Plates for a specific Order
 Retrieve the plate and sample details of an order being processed
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_orders__orderId__plates}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_orders__orderId__plates }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -33,7 +33,7 @@ Get the positions of Markers inside a specific Genomic Map
 All the markers in a given Map, ordered by linkageGroup and position.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome\%20Maps/get_maps__mapDbId__positions}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome\%20Maps/get_maps__mapDbId__positions }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -23,7 +23,7 @@ Get the Categories of Germplasm Attributes
 List all available attribute categories.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm\%20Attributes/get_attributes_categories}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm\%20Attributes/get_attributes_categories }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

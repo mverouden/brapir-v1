@@ -23,7 +23,7 @@ Crop Passport Data. The MCPD fields are optional and marked with the prefix
 [MCPD].
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

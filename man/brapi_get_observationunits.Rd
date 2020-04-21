@@ -57,7 +57,7 @@ Get the Observation Units
 Get a set of observation units
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_observationunits}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observations/get_observationunits }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

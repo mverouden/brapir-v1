@@ -45,7 +45,7 @@ Get the breeding Trials
 Retrieve a filtered list of Trials. A Trial is a collection of studies
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Trials/get_trials}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Trials/get_trials }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -21,7 +21,7 @@ Get the data for a submitted set of plates
 Get data for a submitted set of plates
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_plates__submissionId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_plates__submissionId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

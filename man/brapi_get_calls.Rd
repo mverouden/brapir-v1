@@ -22,7 +22,7 @@ data.frame
 Get the list of implemented Calls
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Calls/get_calls}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Calls/get_calls }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

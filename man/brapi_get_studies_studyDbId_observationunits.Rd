@@ -33,7 +33,7 @@ Get the Observation Units associated with a specific Study
 The main API call for field data collection, to retrieve all the observation units within a study.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observationunits}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observationunits }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

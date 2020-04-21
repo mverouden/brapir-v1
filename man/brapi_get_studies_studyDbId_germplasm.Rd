@@ -30,7 +30,7 @@ Get the Germplasm associated with a specific Study
 Get the available Germplasm which are associated with this study
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__germplasm}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__germplasm }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -39,7 +39,7 @@ Get the Samples
 Used to retrieve list of Samples from a Sample Tracking system based on some search criteria.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Samples/get_samples}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Samples/get_samples }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

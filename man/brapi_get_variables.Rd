@@ -33,7 +33,7 @@ Get the Observation Variables
 Call to retrieve a list of observationVariables available in the system.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_variables}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_variables }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

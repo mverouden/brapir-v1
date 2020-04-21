@@ -17,7 +17,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome%20Maps/get_maps}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Genome%20Maps/get_maps }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Genome Maps

@@ -24,7 +24,7 @@ Get the details of a specific Breeding Method
 Get the details of a specific Breeding Method used to produce Germplasm
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_breedingmethods__breedingMethodDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_breedingmethods__breedingMethodDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

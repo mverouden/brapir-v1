@@ -25,7 +25,7 @@ Get the Marker Profiles associated with a specific Germplasm
 Retrieve the markerProfileDbIds for a given Germplasm ID
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId__markerprofiles}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Germplasm/get_germplasm__germplasmDbId__markerprofiles }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

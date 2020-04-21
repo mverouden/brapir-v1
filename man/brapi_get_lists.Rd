@@ -39,7 +39,7 @@ Get the List Summaries
 Get filtered set of generic lists
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Lists/get_lists}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Lists/get_lists }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

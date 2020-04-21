@@ -21,7 +21,7 @@ Get the an image meta data summary
 Get one image meta data object
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Images/get_images__imageDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Images/get_images__imageDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

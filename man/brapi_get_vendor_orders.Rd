@@ -23,7 +23,7 @@ List current available orders
 List current available orders
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_orders}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_orders }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

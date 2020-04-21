@@ -28,7 +28,7 @@ An Observation Variable has 3 critical parts:
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_scales__scaleDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Observation\%20Variables/get_scales__scaleDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

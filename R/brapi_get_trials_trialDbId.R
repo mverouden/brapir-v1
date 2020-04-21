@@ -13,7 +13,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Trials/get_trials__trialDbId_}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Trials/get_trials__trialDbId_ }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Trials

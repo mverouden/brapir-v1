@@ -60,7 +60,7 @@ Get list of studies
 }
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

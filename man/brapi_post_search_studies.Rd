@@ -74,7 +74,7 @@ StartDate and endDate should be ISO8601 format for dates
 See Search Services for additional implementation details.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/post_search_studies}{BrAPI SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/post_search_studies }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

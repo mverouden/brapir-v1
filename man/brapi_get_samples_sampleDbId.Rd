@@ -21,7 +21,7 @@ Get the details of a specific Sample
 Used to retrieve the details of a single Sample from a Sample Tracking system.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Samples/get_samples__sampleDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Samples/get_samples__sampleDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

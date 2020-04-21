@@ -19,7 +19,7 @@ Get the Vendor Specifications
 Defines the plate format specification for the vendor.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_specifications}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Vendor/get_vendor_specifications }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

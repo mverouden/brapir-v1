@@ -25,7 +25,7 @@
 #'
 #' @author brapir generator package
 #'
-#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Crops/get_commoncropnames}{SwaggerHub}
+#' @references \href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Crops/get_commoncropnames }{BrAPI SwaggerHub}
 #'
 #' @family brapi_1.3
 #' @family Crops

@@ -18,7 +18,7 @@ data.frame
 Get the details for a specific Marker
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Markers/get_markers__markerDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Markers/get_markers__markerDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

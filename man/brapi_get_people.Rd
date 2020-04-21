@@ -39,7 +39,7 @@ Get the People
 Get filtered list of people
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/People/get_people}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/People/get_people }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

@@ -21,7 +21,7 @@ Get the details for a specific Person
 Get a specific person
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/People/get_people__personDbId_}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/People/get_people__personDbId_ }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

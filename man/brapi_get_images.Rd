@@ -42,7 +42,7 @@ Get the image meta data summaries
 Get filtered set of image meta data
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Images/get_images}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Images/get_images }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

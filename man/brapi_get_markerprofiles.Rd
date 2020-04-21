@@ -39,7 +39,7 @@ Get the Marker Profiles
 For the requested Germplasm Id and/or Extract Id, returns the Markerprofile Id and number of non-missing allele calls (marker/allele pairs).
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_markerprofiles}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Marker\%20Profiles/get_markerprofiles }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 

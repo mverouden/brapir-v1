@@ -31,7 +31,7 @@ Get the Observation Variables for a specific Study
 List all the observation variables measured in the study.
 }
 \references{
-\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observationvariables}{SwaggerHub}
+\href{https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3#/Studies/get_studies__studyDbId__observationvariables }{BrAPI SwaggerHub}
 }
 \seealso{
 Other brapi_1.3: 
