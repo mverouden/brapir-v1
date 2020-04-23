@@ -116,6 +116,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
 \code{\link{brapi_post_search_programs}()},
+\code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()}
 
@@ -146,6 +147,7 @@ Other Search Services:
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
 \code{\link{brapi_post_search_programs}()},
+\code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()}
 }
