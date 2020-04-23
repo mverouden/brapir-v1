@@ -96,6 +96,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_orders_orderId_status}()},
 \code{\link{brapi_get_vendor_orders}()},
 \code{\link{brapi_get_vendor_specifications}()},
+\code{\link{brapi_post_allelematrices_search}()},
 \code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_markers}()},
 \code{\link{brapi_post_search_observationtables}()},
