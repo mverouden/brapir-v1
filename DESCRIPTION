@@ -27,6 +27,7 @@ Imports:
     utils,
     readr,
     tidyr,
-    knitr
+    knitr,
+    geojsonR
 Suggests:
 VignetteBuilder: knitr
