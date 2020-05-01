@@ -15,7 +15,7 @@ brapi_POST_callBody <- function(usedArgs, reqArgs) {
     if (any(is.null(bodyArgs[[i]]))) {
       bodyArgs[[i]] <- ""
     }
-    if (any(is.na(bodyArgs[[i]]))) {
+    if (any(is.na(bodyArgs[[i]])) || (inherits(bodyArgs[[i]], what = "list") && length(bodyArgs[[i]]) == 0)) {
       bodyArgs[[i]] <- ""
     }
     if (all(bodyArgs[[i]] != "")) {
