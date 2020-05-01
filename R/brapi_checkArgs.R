@@ -97,7 +97,8 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
     ## Checking used arguments
     for (i in names(usedArgs)) {
       ## Check for arguments which are of type integer
-      if (i %in% c("page", "pageSize", "min", "max")) {
+      #if (i %in% c("page", "pageSize", "min", "max")) {
+      if (i %in% c("page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
         if (!is.numeric(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be of type integer.')
         }
@@ -107,7 +108,8 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         if (i == "pageSize" && usedArgs[[i]] < 1) {
           stop('Argument: "', i, '" should be > 0.')
         }
-        if ((i == "min" | i == "max") && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
+        #if ((i == "min" | i == "max") && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
+        if (grepl(pattern = "(min)|(max)", x = tolower(i)) && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
           stop('Argument: "', i, '" should be >= 0.')
         }
         if (i == "page" | i == "pageSize") {
@@ -123,6 +125,14 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         usedArgs[[i]] <- NULL
         next()
       }
+      ## Check for arguments which are of type list
+      if (i %in% c("imageLocation")) {
+        if (!is.list(usedArgs[[i]])) {
+          stop('Argument: "', i, '" should be provided as a list.')
+        }
+        usedArgs[[i]] <- NULL
+        next()
+      }
       ## Check any other argument to be of type character
       if (!is.character(usedArgs[[i]])) {
         stop('Argument: "', i, '" should be of type character e.g. "text".')
@@ -131,9 +141,32 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
     }
     ## Check, when both min and max are present in used arguments and both are
     ## not NA, that min is smaller than or equal to max
-    if (ifelse(all(c("min", "max") %in% names(usedArgs)), (!is.na(usedArgs[["min"]]) && !is.na(usedArgs[["max"]])), FALSE)) {
+    if (ifelse(all(c("min", "max") %in% names(usedArgs)),
+               (!is.na(usedArgs[["min"]]) && !is.na(usedArgs[["max"]])),
+               FALSE)) {
       if (!usedArgs[["min"]] <= usedArgs[["max"]]) {
         stop('Argument: "min" can never be larger than argument: "max".')
+      }
+    }
+    if (ifelse(all(c("imageFileSizeMin", "imageFileSizeMax") %in% names(usedArgs)),
+               (!is.na(usedArgs[["imageFileSizeMin"]]) && !is.na(usedArgs[["imageFileSizeMax"]])),
+               FALSE)) {
+      if (!usedArgs[["imageFileSizeMin"]] <= usedArgs[["imageFileSizeMax"]]) {
+        stop('Argument: "imageFileSizeMin" can never be larger than argument: "imageFileSizeMax".')
+      }
+    }
+    if (ifelse(all(c("imageHeightMin", "imageHeightMax") %in% names(usedArgs)),
+               (!is.na(usedArgs[["imageHeightMin"]]) && !is.na(usedArgs[["imageHeightMax"]])),
+               FALSE)) {
+      if (!usedArgs[["imageHeightMin"]] <= usedArgs[["imageHeightMax"]]) {
+        stop('Argument: "imageHeightMin" can never be larger than argument: "imageHeightMax".')
+      }
+    }
+    if (ifelse(all(c("imageWidthMin", "imageWidthMax") %in% names(usedArgs)),
+               (!is.na(usedArgs[["imageWidthMin"]]) && !is.na(usedArgs[["imageWidthMax"]])),
+               FALSE)) {
+      if (!usedArgs[["imageWidthMin"]] <= usedArgs[["imageWidthMax"]]) {
+        stop('Argument: "imageWidthMin" can never be larger than argument: "imageWidthMax".')
       }
     }
   }
