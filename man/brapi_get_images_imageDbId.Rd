@@ -98,6 +98,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_allelematrices_search}()},
 \code{\link{brapi_post_search_germplasm}()},
+\code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
@@ -108,7 +109,8 @@ Other brapi_1.3:
 
 Other Images: 
 \code{\link{brapi_get_images}()},
-\code{\link{brapi_get_search_images_searchResultsDbId}()}
+\code{\link{brapi_get_search_images_searchResultsDbId}()},
+\code{\link{brapi_post_search_images}()}
 }
 \author{
 brapir generator package

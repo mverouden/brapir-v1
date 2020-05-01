@@ -107,6 +107,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_allelematrices_search}()},
 \code{\link{brapi_post_search_germplasm}()},
+\code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
@@ -117,7 +118,8 @@ Other brapi_1.3:
 
 Other Images: 
 \code{\link{brapi_get_images_imageDbId}()},
-\code{\link{brapi_get_images}()}
+\code{\link{brapi_get_images}()},
+\code{\link{brapi_post_search_images}()}
 
 Other Search Services: 
 \code{\link{brapi_get_search_germplasm_searchResultsDbId}()},
@@ -129,6 +131,7 @@ Other Search Services:
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},
 \code{\link{brapi_get_search_variables_searchResultsDbId}()},
 \code{\link{brapi_post_search_germplasm}()},
+\code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},

@@ -97,7 +97,6 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
     ## Checking used arguments
     for (i in names(usedArgs)) {
       ## Check for arguments which are of type integer
-      #if (i %in% c("page", "pageSize", "min", "max")) {
       if (i %in% c("page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
         if (!is.numeric(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be of type integer.')
@@ -108,7 +107,6 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         if (i == "pageSize" && usedArgs[[i]] < 1) {
           stop('Argument: "', i, '" should be > 0.')
         }
-        #if ((i == "min" | i == "max") && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
         if (grepl(pattern = "(min)|(max)", x = tolower(i)) && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
           stop('Argument: "', i, '" should be >= 0.')
         }
