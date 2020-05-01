@@ -11,7 +11,7 @@ Description: Implements the Breeding API version 1.3 (www.brapi.org) within R.
 Depends:
     R (>= 3.5.0)
 BugReports: https://github.com/mverouden/brapir/issues
-URL: https://CIP-RIU.github.io/brapi
+URL: https://github.com/mverouden/brapir
 License: file LICENSE
 LazyData: true
 Encoding: UTF-8
