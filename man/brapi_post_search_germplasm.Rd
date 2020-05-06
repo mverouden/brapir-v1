@@ -127,6 +127,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_allelematrices_search}()},
 \code{\link{brapi_post_images}()},
 \code{\link{brapi_post_methods}()},
+\code{\link{brapi_post_people}()},
 \code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},
 \code{\link{brapi_post_search_observationtables}()},
