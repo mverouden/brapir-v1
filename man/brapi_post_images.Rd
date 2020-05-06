@@ -75,7 +75,7 @@ The \verb{/images} calls support a GeoJSON object structure for describing their
 con <- brapi_db()$testserver
 
 library(geojsonR)
-# Create on imageLocation example objects
+# Create an imageLocation example list object
 #' # Point example for Ancient Human Head at Cypress County, Canada
 init <- TO_GeoJson$new()
 imageLocation <- list()
@@ -188,6 +188,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_plates_submissionId}()},
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_allelematrices_search}()},
+\code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},

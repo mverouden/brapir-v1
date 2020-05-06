@@ -95,6 +95,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_allelematrices_search}()},
 \code{\link{brapi_post_images}()},
+\code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},
