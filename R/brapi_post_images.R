@@ -44,7 +44,7 @@
 #' con <- brapi_db()$testserver
 #'
 #' library(geojsonR)
-#' # Create on imageLocation example objects
+#' # Create an imageLocation example list object
 #' #' # Point example for Ancient Human Head at Cypress County, Canada
 #' init <- TO_GeoJson$new()
 #' imageLocation <- list()
