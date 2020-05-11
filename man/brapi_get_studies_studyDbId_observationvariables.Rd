@@ -110,6 +110,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_images}()},
 \code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_people}()},
+\code{\link{brapi_post_scales}()},
 \code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_images}()},
 \code{\link{brapi_post_search_markers}()},
@@ -145,6 +146,7 @@ Other Observation Variables:
 \code{\link{brapi_get_variables_observationVariableDbId}()},
 \code{\link{brapi_get_variables}()},
 \code{\link{brapi_post_methods}()},
+\code{\link{brapi_post_scales}()},
 \code{\link{brapi_post_search_variables}()}
 }
 \author{
