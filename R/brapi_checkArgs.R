@@ -97,9 +97,12 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
     ## Checking used arguments
     for (i in names(usedArgs)) {
       ## Check for arguments which are of type integer
-      if (i %in% c("page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
+      if (i %in% c("decimalPlaces", "page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
         if (!is.numeric(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be of type integer.')
+        }
+        if (i == "decimalPlaces" && usedArgs[[i]] < 0) {
+          stop('Argument: "', i, '" should be >= 0.')
         }
         if (i == "page" && usedArgs[[i]] < 0) {
           stop('Argument: "', i, '" should be >= 0 (0 is the default, meaning page number 1).')
@@ -110,7 +113,7 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         if (grepl(pattern = "(min)|(max)", x = tolower(i)) && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
           stop('Argument: "', i, '" should be >= 0.')
         }
-        if (i == "page" | i == "pageSize") {
+        if (i %in% c("decimalPlaces", "page", "pageSize")) {
           usedArgs[[i]] <- NULL
         }
         next()
@@ -124,7 +127,7 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         next()
       }
       ## Check for arguments which are of type list
-      if (i %in% c("imageLocation", "additionalInfo", "ontologyReference")) {
+      if (i %in% c("additionalInfo", "imageLocation", "ontologyReference", "validValues")) {
         if (!is.list(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be provided as a list.')
         }
