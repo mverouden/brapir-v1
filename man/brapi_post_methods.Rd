@@ -45,10 +45,12 @@ Create a new method object in the database
 con <- brapi_db()$testserver
 
 # Create an ontologyReference example list object
+# ontologyDbId should be specified as an existing one (see get /ontologies) or
+# left empty (some servers might generate a new ontologyDbId).
 ontologyReference <- list(
   documentationLinks = data.frame(URL = "https://www.cropontology.org/terms/CO_333:1000040/",
                                   type = "webpage"),
-  ontologyDbId = "CO_333:1000040",
+  ontologyDbId = "",
   ontologyName = "cropontology.org",
   version = "5.0")
 
