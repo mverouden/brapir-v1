@@ -73,14 +73,14 @@ validValues = list(
   max = 0,
   min = 0)
 
-# Make post /methods call
-brapi_post_methods(con = con,
-                   class = "Numeric",
-                   description = "Net Weight/Ha",
-                   formula = "NA",
-                   methodName = "Phenotypic analysis",
-                   ontologyReference = ontologyReference,
-                   reference = "WEBPAGE")
+# Make post /scales call
+brapi_post_scales(con = con,
+                  dataType = "Ordinal",
+                  decimalPlaces = 0,
+                  ontologyReference = ontologyReference,
+                  scaleName = 'clothing sizes',
+                  validValues = validValues,
+                  xref = "xref")
 }
 
 }
