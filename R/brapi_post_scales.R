@@ -17,9 +17,9 @@
 #'
 #'    ; default: &quot;&quot;.
 #' @param decimalPlaces integer; required: FALSE; For numerical, number of decimal places to be reported; default: 0.
-#' @param ontologyReference list; required: FALSE; Example section provides an example on how to specify this list.; default: list()
+#' @param ontologyReference list; required: FALSE; The ontologyReference list should contain links to various ontology documentation (URL and type) supplied as a dataframe, an unique ontology database identifier, an ontology name and an ontology version (no specific format). In Examples section an example on how to specify this list is provided; default: list()
 #' @param scaleName character; required: FALSE; Name of the scale; default: &quot;&quot;.
-#' @param validValues list; required: FALSE; Example section provides an example on how to specify this list.; default: list()
+#' @param validValues list; required: FALSE; The validValues list should contain a character vector of values when specificing a nominal or ordinal scale, in this case max and min will be specified as 0. When specifying a numerical or date scale the categories need to specified as "", max specifies the maximum value and min specifies the minimum value used for data capture control. In the Examples section an example on how to specify this list is provided; default: list()
 #' @param xref character; required: FALSE; Cross reference to the scale, for example to a unit ontology such as UO or to a unit of an external major database; default: &quot;&quot;.
 #'
 #' @details Create a new scale object in the database
@@ -42,7 +42,7 @@
 #' # Create an ontologyReference example list object
 #' # ontologyDbId should be specified as an existing one (see get /ontologies) or
 #' # left empty (some servers might generate a new ontologyDbId).
-#' ontologyReference = list(
+#' ontologyReference <- list(
 #'   documentationLinks = data.frame(URL = "https://Ontology.org/s5",
 #'                                   type = "RDF"),
 #'   ontologyDbId = "MO_123",
@@ -51,8 +51,9 @@
 #'
 #' # Create an validValues example list object
 #' # If categories is used max and min have to be 0, vice versa when specifying
-#' # max and min for a numerical scale the categories should specified as "".
-#' validValues = list(
+#' # max and min for a numerical or date scale the categories should specified
+#' # as "".
+#' validValues <- list(
 #'   categories = c("xs", "s", "m", "l", "xl", "xxl"),
 #'   max = 0,
 #'   min = 0)
