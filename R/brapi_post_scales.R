@@ -17,7 +17,7 @@
 #'
 #'    ; default: &quot;&quot;.
 #' @param decimalPlaces integer; required: FALSE; For numerical, number of decimal places to be reported; default: 0.
-#' @param ontologyReference list; required: FALSE; The ontologyReference list should contain links to various ontology documentation (URL and type) supplied as a dataframe, an unique ontology database identifier, an ontology name and an ontology version (no specific format). In Examples section an example on how to specify this list is provided; default: list()
+#' @param ontologyReference list; required: FALSE; The ontologyReference list should contain links to various ontology documentation (URL and type) supplied as a dataframe, an unique ontology database identifier, an ontology name and an ontology version (no specific format). In the Examples section an example on how to specify this list is provided; default: list()
 #' @param scaleName character; required: FALSE; Name of the scale; default: &quot;&quot;.
 #' @param validValues list; required: FALSE; The validValues list should contain a character vector of values when specificing a nominal or ordinal scale, in this case max and min will be specified as 0. When specifying a numerical or date scale the categories need to specified as "", max specifies the maximum value and min specifies the minimum value used for data capture control. In the Examples section an example on how to specify this list is provided; default: list()
 #' @param xref character; required: FALSE; Cross reference to the scale, for example to a unit ontology such as UO or to a unit of an external major database; default: &quot;&quot;.
