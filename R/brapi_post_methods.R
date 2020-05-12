@@ -9,7 +9,7 @@
 #' @param description character; required: FALSE; Method description.; default: &quot;&quot;.
 #' @param formula character; required: FALSE; For computational methods i.e., when the method consists in assessing the trait by computing measurements, write the generic formula used for the calculation; default: &quot;&quot;.
 #' @param methodName character; required: FALSE; Human readable name for the method; default: &quot;&quot;.
-#' @param ontologyReference list; required: FALSE; Example section provides an example on how to specify this list.; default: list()
+#' @param ontologyReference list; required: FALSE; The ontologyReference list should contain links to various ontology documentation (URL and type) supplied as a dataframe, an unique ontology database identifier, an ontology name and an ontology version (no specific format). In Examples section an example on how to specify this list is provided; default: list()
 #' @param reference character; required: FALSE; Bibliographical reference describing the method.; default: &quot;&quot;.
 #'
 #' @details Create a new method object in the database
