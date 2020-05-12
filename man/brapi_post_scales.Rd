@@ -32,11 +32,11 @@ brapi_post_scales(
 
 \item{decimalPlaces}{integer; required: FALSE; For numerical, number of decimal places to be reported; default: 0.}
 
-\item{ontologyReference}{list; required: FALSE; Example section provides an example on how to specify this list.; default: list()}
+\item{ontologyReference}{list; required: FALSE; The ontologyReference list should contain links to various ontology documentation (URL and type) supplied as a dataframe, an unique ontology database identifier, an ontology name and an ontology version (no specific format). In the Examples section an example on how to specify this list is provided; default: list()}
 
 \item{scaleName}{character; required: FALSE; Name of the scale; default: "".}
 
-\item{validValues}{list; required: FALSE; Example section provides an example on how to specify this list.; default: list()}
+\item{validValues}{list; required: FALSE; The validValues list should contain a character vector of values when specificing a nominal or ordinal scale, in this case max and min will be specified as 0. When specifying a numerical or date scale the categories need to specified as "", max specifies the maximum value and min specifies the minimum value used for data capture control. In the Examples section an example on how to specify this list is provided; default: list()}
 
 \item{xref}{character; required: FALSE; Cross reference to the scale, for example to a unit ontology such as UO or to a unit of an external major database; default: "".}
 }
@@ -58,7 +58,7 @@ con <- brapi_db()$testserver
 # Create an ontologyReference example list object
 # ontologyDbId should be specified as an existing one (see get /ontologies) or
 # left empty (some servers might generate a new ontologyDbId).
-ontologyReference = list(
+ontologyReference <- list(
   documentationLinks = data.frame(URL = "https://Ontology.org/s5",
                                   type = "RDF"),
   ontologyDbId = "MO_123",
@@ -67,8 +67,9 @@ ontologyReference = list(
 
 # Create an validValues example list object
 # If categories is used max and min have to be 0, vice versa when specifying
-# max and min for a numerical scale the categories should specified as "".
-validValues = list(
+# max and min for a numerical or date scale the categories should specified
+# as "".
+validValues <- list(
   categories = c("xs", "s", "m", "l", "xl", "xxl"),
   max = 0,
   min = 0)
@@ -173,7 +174,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_programs}()},
 \code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
-\code{\link{brapi_post_search_variables}()}
+\code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_traits}()}
 
 Other Observation Variables: 
 \code{\link{brapi_get_methods_methodDbId}()},
@@ -188,7 +190,8 @@ Other Observation Variables:
 \code{\link{brapi_get_variables_observationVariableDbId}()},
 \code{\link{brapi_get_variables}()},
 \code{\link{brapi_post_methods}()},
-\code{\link{brapi_post_search_variables}()}
+\code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_traits}()}
 }
 \author{
 brapir generator package

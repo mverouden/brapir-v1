@@ -25,7 +25,7 @@ brapi_post_methods(
 
 \item{methodName}{character; required: FALSE; Human readable name for the method; default: "".}
 
-\item{ontologyReference}{list; required: FALSE; Example section provides an example on how to specify this list.; default: list()}
+\item{ontologyReference}{list; required: FALSE; The ontologyReference list should contain links to various ontology documentation (URL and type) supplied as a dataframe, an unique ontology database identifier, an ontology name and an ontology version (no specific format). In the Examples section an example on how to specify this list is provided; default: list()}
 
 \item{reference}{character; required: FALSE; Bibliographical reference describing the method.; default: "".}
 }
@@ -154,7 +154,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_programs}()},
 \code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
-\code{\link{brapi_post_search_variables}()}
+\code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_traits}()}
 
 Other Observation Variables: 
 \code{\link{brapi_get_methods_methodDbId}()},
@@ -169,7 +170,8 @@ Other Observation Variables:
 \code{\link{brapi_get_variables_observationVariableDbId}()},
 \code{\link{brapi_get_variables}()},
 \code{\link{brapi_post_scales}()},
-\code{\link{brapi_post_search_variables}()}
+\code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_traits}()}
 }
 \author{
 brapir generator package

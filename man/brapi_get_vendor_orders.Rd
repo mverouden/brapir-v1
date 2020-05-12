@@ -111,7 +111,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_programs}()},
 \code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
-\code{\link{brapi_post_search_variables}()}
+\code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_traits}()}
 
 Other Vendor: 
 \code{\link{brapi_get_vendor_orders_orderId_plates}()},
