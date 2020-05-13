@@ -116,6 +116,7 @@ Other brapi_1.3:
 \code{\link{brapi_get_vendor_specifications}()},
 \code{\link{brapi_post_allelematrices_search}()},
 \code{\link{brapi_post_images}()},
+\code{\link{brapi_post_lists}()},
 \code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_people}()},
 \code{\link{brapi_post_scales}()},
@@ -131,7 +132,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_traits}()}
 
 Other Lists: 
-\code{\link{brapi_get_lists_listDbId}()}
+\code{\link{brapi_get_lists_listDbId}()},
+\code{\link{brapi_post_lists}()}
 }
 \author{
 brapir generator package
