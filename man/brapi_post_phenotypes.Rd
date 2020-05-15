@@ -63,7 +63,7 @@ datadf <- data.frame(
   observationTimeStamp = c("2020-05-15T15:30:00.760Z", "2020-05-15T15:31:16.760Z"),
   observationVariableDbId = c("MO_123:100002", "MO_123:100003"),
   observationVariableName = c("Plant height", "Carotenoid"),
-  season = c("spring 2020", "spring 2020"),
+  season = c("spring", "spring"),
   value = c("1.75", "1.4")
 )
 data[["observations"]] <- list(datadf)
