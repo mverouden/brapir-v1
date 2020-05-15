@@ -112,6 +112,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_lists}()},
 \code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_people}()},
+\code{\link{brapi_post_phenotypes}()},
 \code{\link{brapi_post_scales}()},
 \code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_images}()},

@@ -138,6 +138,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_lists}()},
 \code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_people}()},
+\code{\link{brapi_post_phenotypes}()},
 \code{\link{brapi_post_scales}()},
 \code{\link{brapi_post_search_germplasm}()},
 \code{\link{brapi_post_search_images}()},
@@ -157,6 +158,7 @@ Other Observations:
 \code{\link{brapi_get_studies_studyDbId_observations}()},
 \code{\link{brapi_get_studies_studyDbId_observationunits}()},
 \code{\link{brapi_get_studies_studyDbId_table}()},
+\code{\link{brapi_post_phenotypes}()},
 \code{\link{brapi_post_search_observationtables}()}
 
 Other Search Services: 
