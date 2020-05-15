@@ -18,7 +18,7 @@ brapi_POST_callBody <- function(usedArgs, reqArgs) {
     if (any(is.na(bodyArgs[[i]])) || (inherits(bodyArgs[[i]], what = "list") && length(bodyArgs[[i]]) == 0)) {
       bodyArgs[[i]] <- ""
     }
-    if (all(bodyArgs[[i]] != "")) {
+    if (all(bodyArgs[[i]] != "") || inherits(x = bodyArgs[[i]], what = "data.frame")) {
       if (inherits(x = bodyArgs[[i]], what = "character") &&
           length(bodyArgs[[i]]) == 1 &&
           grepl(pattern = "(Classes)|(Genus)|(Ids)|(Links)|(Names)|(Numbers)|(PUIs)|(Species)|(synonyms)|(Terms)|(tions)|(Xrefs)|(ypes)|(markerDbId)|(markerProfileDbId)|(matrixDbId)|(objectives)",
