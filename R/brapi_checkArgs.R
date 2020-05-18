@@ -19,7 +19,7 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         stop('Required argument: "', i, '" should be of type character, e.g. ', i, ' = "text".')
       }
       ## Check if required argument has more than zero characters
-      if (!(nchar(reqArgs[[i]]) > 0)) {
+      if (!all(nchar(reqArgs[[i]]) > 0)) {
         stop('Required argument: "', i, '" should at least have length one.')
       }
       if (i == "Accept" && !(usedArgs[[i]] %in% c("application/json", "text/csv", "text/tsv", "application/flapjack"))) {
@@ -97,11 +97,11 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
     ## Checking used arguments
     for (i in names(usedArgs)) {
       ## Check for arguments which are of type integer
-      if (i %in% c("decimalPlaces", "page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
+      if (i %in% c("decimalPlaces", "listSize", "page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
         if (!is.numeric(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be of type integer.')
         }
-        if (i == "decimalPlaces" && usedArgs[[i]] < 0) {
+        if (i %in% c("decimalPlaces", "listSize") && usedArgs[[i]] < 0) {
           stop('Argument: "', i, '" should be >= 0.')
         }
         if (i == "page" && usedArgs[[i]] < 0) {
