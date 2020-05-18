@@ -19,12 +19,21 @@ brapi_POST <- function(url, body, usedArgs) {
   }
 
   if ("Accept" %in% names(usedArgs)) {
-    resp <- httr::POST(url = url,
-                       body = body,
-                       encode = "json",
-                       httr::timeout(25),
-                       httr::add_headers("Accept" = paste(usedArgs[["Accept"]]),
-                                         "Authorization" = paste("Bearer", usedArgs[["con"]][["token"]])))
+    if ("Content-Type" %in% names(usedArgs)) {
+      resp <- httr::POST(url = url,
+                         body =  jsonlite::toJSON(body),
+                         httr::timeout(25),
+                         httr::add_headers("Accept" = usedArgs[["Accept"]],
+                                           "Authorization" = paste("Bearer", usedArgs[["con"]][["token"]])),
+                         httr::content_type(usedArgs[["Content-Type"]]))
+    } else {
+      resp <- httr::POST(url = url,
+                         body = body,
+                         encode = "json",
+                         httr::timeout(25),
+                         httr::add_headers("Accept" = usedArgs[["Accept"]],
+                                           "Authorization" = paste("Bearer", usedArgs[["con"]][["token"]])))
+    }
   } else {
     resp <- httr::POST(url = url,
                        body = body,
