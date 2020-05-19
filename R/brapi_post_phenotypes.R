@@ -19,7 +19,7 @@
 #'       + season	character; required: FALSE; the season when the observation data was collected
 #'       + value character; required: TRUE; the value of the data collected as an observation
 #'
-#' The Examples Section show an example of how to construct the data argument as a nested data.frame.
+#' The Examples Section shows an example of how to construct the data argument as a nested data.frame.
 #'
 #' @details
 #' Along with the study specific phenotype saving calls (in the observationUnit and table formats), this call allows phenotypes to be saved  and images to optionally be transferred as well.

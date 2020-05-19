@@ -27,7 +27,7 @@ brapi_post_phenotypes(con = NULL, format = as.character(NA), data = "")
 }
 }
 
-The Examples Section show an example of how to construct the data argument as a nested data.frame.}
+The Examples Section shows an example of how to construct the data argument as a nested data.frame.}
 }
 \value{
 data.frame

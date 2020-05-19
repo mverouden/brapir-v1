@@ -17,7 +17,7 @@ brapi_post_studies_studyDbId_table(
 
 \item{studyDbId}{character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.}
 
-\item{data}{data.frame; required: TRUE; data frame of observation data recorded for different observation variables across different observation units; default: "".}
+\item{data}{data.frame; required: TRUE; data frame of observation data recorded for different observation variables across different observation units; default: "". The Examples Section shows an example of how to construct the data argument as a data.frame.}
 
 \item{headerRow}{vector of type character; required: TRUE; The header row describing the data frame. Append 'observationVariableDbIds' for complete header row of the table. This vector of type character should contain any or all of the following strings; year, studyDbId, studyName, locationDbId, locationName, germplasmDbId, germplasmName, observationUnitDbId, plotNumber, replicate, blockNumber, entryType, X, Y; default: "", when using multiple values supply as c("year", "studyDbId", ...).}
 
