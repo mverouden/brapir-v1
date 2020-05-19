@@ -124,6 +124,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_post_traits}()}
 
 Other Studies: 
@@ -137,7 +138,8 @@ Other Studies:
 \code{\link{brapi_get_studies_studyDbId}()},
 \code{\link{brapi_get_studies}()},
 \code{\link{brapi_get_studytypes}()},
-\code{\link{brapi_post_search_studies}()}
+\code{\link{brapi_post_search_studies}()},
+\code{\link{brapi_post_studies_studyDbId_table}()}
 
 Other Search Services: 
 \code{\link{brapi_get_search_germplasm_searchResultsDbId}()},

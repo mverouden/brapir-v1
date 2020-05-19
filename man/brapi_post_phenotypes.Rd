@@ -11,7 +11,7 @@ brapi_post_phenotypes(con = NULL, format = as.character(NA), data = "")
 
 \item{format}{character; required: FALSE; In case where JSON data is zipped for faster transfer speed (as in the case of the IRRI handheld implementation), the zipped JSON file will be listed in datafiles. The zipped file contains a JSON file with the same structure as the BrAPI call.; default: as.character(NA), other possible values: "csv", tsv" and depending on the call "flapjack" may be supported.}
 
-\item{data}{data.frame; required: FALSE, with default: ""; data.frame of observation data recorded for different observation variables across different observation units. The data data.frame requires to contain the following columns:
+\item{data}{data.frame; required: TRUE, with default: ""; data.frame of observation data recorded for different observation variables across different observation units. The data data.frame requires to contain the following columns:
 \itemize{
 \item observatioUnitDbId character; required: TRUE
 \item studyDbId character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.
@@ -52,7 +52,7 @@ Images can be optionally be uploaded using this call by providing a zipfile of a
 # Create a connection object
 con <- brapi_db()$testserver
 
-# Create a data example data.frame object
+# Create an example data.frame data object
 data <- data.frame(
   observatioUnitDbId = "7",
   studyDbId = "1002"
@@ -67,7 +67,6 @@ datadf <- data.frame(
   value = c("1.75", "1.4")
 )
 data[["observations"]] <- list(datadf)
-
 
 # Make post /phenotypes call
 brapi_post_phenotypes(con = con,
@@ -169,6 +168,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_samples}()},
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()},
+\code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_post_traits}()}
 
 Other Observations: 
@@ -180,7 +180,8 @@ Other Observations:
 \code{\link{brapi_get_studies_studyDbId_observationunits}()},
 \code{\link{brapi_get_studies_studyDbId_table}()},
 \code{\link{brapi_post_search_observationtables}()},
-\code{\link{brapi_post_search_observationunits}()}
+\code{\link{brapi_post_search_observationunits}()},
+\code{\link{brapi_post_studies_studyDbId_table}()}
 }
 \author{
 brapir generator package
