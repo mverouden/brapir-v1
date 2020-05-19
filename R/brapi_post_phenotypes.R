@@ -6,7 +6,7 @@
 #'
 #' @param con list; required: TRUE; BrAPI connection object
 #' @param format character; required: FALSE; In case where JSON data is zipped for faster transfer speed (as in the case of the IRRI handheld implementation), the zipped JSON file will be listed in datafiles. The zipped file contains a JSON file with the same structure as the BrAPI call.; default: as.character(NA), other possible values: &quot;csv&quot;, tsv&quot; and depending on the call &quot;flapjack&quot; may be supported.
-#' @param data data.frame; required: FALSE, with default: &quot;&quot;; data.frame of observation data recorded for different observation variables across different observation units. The data data.frame requires to contain the following columns:
+#' @param data data.frame; required: TRUE, with default: &quot;&quot;; data.frame of observation data recorded for different observation variables across different observation units. The data data.frame requires to contain the following columns:
 #'
 #'   * observatioUnitDbId character; required: TRUE
 #'   * studyDbId character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.
@@ -48,7 +48,7 @@
 #' # Create a connection object
 #' con <- brapi_db()$testserver
 #'
-#' # Create a data example data.frame object
+#' # Create an example data.frame data object
 #' data <- data.frame(
 #'   observatioUnitDbId = "7",
 #'   studyDbId = "1002"
@@ -64,7 +64,6 @@
 #' )
 #' data[["observations"]] <- list(datadf)
 #'
-#'
 #' # Make post /phenotypes call
 #' brapi_post_phenotypes(con = con,
 #'                       format = as.character(NA),
@@ -77,10 +76,18 @@ brapi_post_phenotypes <- function(con = NULL, format = as.character(NA), data = 
   usedArgs <- brapi_usedArgs(origValues = FALSE)
   ## Check if BrAPI server can be reached given the connection details
   brapi_checkCon(con = usedArgs[["con"]], verbose = FALSE)
+  ## Check if usedArgs[["data]] is supplied as empty character vector
+  if (inherits(usedArgs[["data"]], what = "character") && usedArgs[["data"]] == "") {
+    stop('Required argument: "data" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
+  }
   data <- usedArgs[["data"]]
+  if (!inherits(x = data, what = "data.frame")) {
+    stop('Required argument: "data" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
+  }
   usedArgs[["data"]] <- NULL
   ## Check validity of used and required arguments
   brapi_checkArgs(usedArgs, reqArgs = "")
+  ## Put data back into usedArgs
   usedArgs[["data"]] <- data
   ## Obtain the call url
   callurl <- brapi_POST_callURL(usedArgs = usedArgs,
