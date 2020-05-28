@@ -135,7 +135,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
-\code{\link{brapi_post_traits}()}
+\code{\link{brapi_post_traits}()},
+\code{\link{brapi_post_vendor_orders}()}
 
 Other Studies: 
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},

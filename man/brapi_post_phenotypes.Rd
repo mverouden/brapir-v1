@@ -11,19 +11,19 @@ brapi_post_phenotypes(con = NULL, format = as.character(NA), data = "")
 
 \item{format}{character; required: FALSE; In case where JSON data is zipped for faster transfer speed (as in the case of the IRRI handheld implementation), the zipped JSON file will be listed in datafiles. The zipped file contains a JSON file with the same structure as the BrAPI call.; default: as.character(NA), other possible values: "csv", tsv" and depending on the call "flapjack" may be supported.}
 
-\item{data}{data.frame; required: TRUE, with default: ""; data.frame of observation data recorded for different observation variables across different observation units. The data data.frame requires to contain the following columns:
+\item{data}{data.frame; required: TRUE, with default: ""; data.frame of observation data recorded for different observation variables across different observation units. The \code{data} argument data.frame requires to contain the following columns:
 \itemize{
-\item observatioUnitDbId character; required: TRUE
-\item studyDbId character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.
-\item observations data.frame; required: TRUE; the observations data.frame has required and optional columns:
+\item \code{observatioUnitDbId} character; required: TRUE
+\item \code{studyDbId} character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.
+\item \code{observations} data.frame; required: TRUE; the observations data.frame has required and optional columns:
 \itemize{
-\item collector character; required: TRUE; the name or identifier of the entity which collected the observation
-\item observationDbId character; required: FALSE; the ID which uniquely identifies an observation
-\item observationTimeStamp character; required: TRUE; the date and time when this observation was made and specified in the ISO 8601 format
-\item observationVariableDbId character; required: TRUE; variable unique identifier
-\item observationVariableName character; required: TRUE;    a human readable name for an observation variable
-\item season    character; required: FALSE; the season when the observation data was collected
-\item value character; required: TRUE; the value of the data collected as an observation
+\item \code{collector} character; required: TRUE; the name or identifier of the entity which collected the observation
+\item \code{observationDbId} character; required: FALSE; the ID which uniquely identifies an observation
+\item \code{observationTimeStamp} character; required: TRUE; the date and time when this observation was made and specified in the ISO 8601 format
+\item \code{observationVariableDbId} character; required: TRUE; variable unique identifier
+\item \code{observationVariableName} character; required: TRUE;    a human readable name for an observation variable
+\item \code{season}    character; required: FALSE; the season when the observation data was collected
+\item \code{value} character; required: TRUE; the value of the data collected as an observation
 }
 }
 
@@ -169,7 +169,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
-\code{\link{brapi_post_traits}()}
+\code{\link{brapi_post_traits}()},
+\code{\link{brapi_post_vendor_orders}()}
 
 Other Observations: 
 \code{\link{brapi_get_observationlevels}()},
