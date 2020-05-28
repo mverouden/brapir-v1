@@ -71,7 +71,7 @@ The Examples Section shows an example of how to construct the \code{plates} argu
 \item{serviceIds}{vector of type character; required: TRUE; A list of unique, alpha-numeric ID's which identify the requested services to be applied to this order. A Vendor Service defines what platform, technology, and markers will be used. A list of service IDs can be retrieved from the Vendor Specs.; default: "", when using multiple values supply as c("value1", "value2").}
 }
 \value{
-data.frame
+data.frame containing the \code{orderId}
 }
 \description{
 Submit New Order
@@ -152,13 +152,13 @@ plates[["samples"]] <- list(samplesPlateId01, samplesPlateId02)
 brapi_post_vendor_orders(con = con,
                          clientId = "BrAPIR",
                          numberOfSamples = 4,
-                         sampleType = "DNA",
-                         serviceIds = "vsp1",
+                         plates = plates,
                          requiredServiceInfo = list(
                            additionalProp1 = "stringAddProp1",
                            additionalProp2 = "stringAddProp2",
                            additionalProp3 = "stringAddProp3"),
-                        plates = plates)
+                         sampleType = "DNA",
+                         serviceIds = "vsp1")
 }
 
 }
@@ -257,7 +257,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_search_variables}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
-\code{\link{brapi_post_traits}()}
+\code{\link{brapi_post_traits}()},
+\code{\link{brapi_post_vendor_plates}()}
 
 Other Vendor: 
 \code{\link{brapi_get_vendor_orders_orderId_plates}()},
@@ -265,7 +266,8 @@ Other Vendor:
 \code{\link{brapi_get_vendor_orders_orderId_status}()},
 \code{\link{brapi_get_vendor_orders}()},
 \code{\link{brapi_get_vendor_plates_submissionId}()},
-\code{\link{brapi_get_vendor_specifications}()}
+\code{\link{brapi_get_vendor_specifications}()},
+\code{\link{brapi_post_vendor_plates}()}
 }
 \author{
 brapir generator package

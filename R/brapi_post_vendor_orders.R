@@ -44,7 +44,7 @@
 #'
 #' @details Submit a new order to a vendor
 #'
-#' @return data.frame
+#' @return data.frame containing the `orderId`
 #'
 #' @author brapir generator package
 #'
@@ -126,17 +126,17 @@
 #' brapi_post_vendor_orders(con = con,
 #'                          clientId = "BrAPIR",
 #'                          numberOfSamples = 4,
-#'                          sampleType = "DNA",
-#'                          serviceIds = "vsp1",
+#'                          plates = plates,
 #'                          requiredServiceInfo = list(
 #'                            additionalProp1 = "stringAddProp1",
 #'                            additionalProp2 = "stringAddProp2",
 #'                            additionalProp3 = "stringAddProp3"),
-#'                         plates = plates)
+#'                          sampleType = "DNA",
+#'                          serviceIds = "vsp1")
 #' }
 #'
 #' @export
-brapi_post_vendor_orders <- function(con = NULL, clientId = '', numberOfSamples = 0, plates = "", requiredServiceInfo = list(), sampleType = '', serviceIds = '') {
+brapi_post_vendor_orders <- function(con = NULL, clientId = '', numberOfSamples = 0, plates = '', requiredServiceInfo = list(), sampleType = '', serviceIds = '') {
   ## Create a list of used arguments
   usedArgs <- brapi_usedArgs(origValues = FALSE)
   ## Check if BrAPI server can be reached given the connection details

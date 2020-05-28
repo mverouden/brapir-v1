@@ -115,7 +115,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_search_variables}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_post_traits}()},
-\code{\link{brapi_post_vendor_orders}()}
+\code{\link{brapi_post_vendor_orders}()},
+\code{\link{brapi_post_vendor_plates}()}
 
 Other Vendor: 
 \code{\link{brapi_get_vendor_orders_orderId_plates}()},
@@ -123,7 +124,8 @@ Other Vendor:
 \code{\link{brapi_get_vendor_orders_orderId_status}()},
 \code{\link{brapi_get_vendor_orders}()},
 \code{\link{brapi_get_vendor_specifications}()},
-\code{\link{brapi_post_vendor_orders}()}
+\code{\link{brapi_post_vendor_orders}()},
+\code{\link{brapi_post_vendor_plates}()}
 }
 \author{
 brapir generator package
