@@ -6,18 +6,18 @@
 #'
 #' @param con list; required: TRUE; BrAPI connection object
 #' @param format character; required: FALSE; In case where JSON data is zipped for faster transfer speed (as in the case of the IRRI handheld implementation), the zipped JSON file will be listed in datafiles. The zipped file contains a JSON file with the same structure as the BrAPI call.; default: as.character(NA), other possible values: &quot;csv&quot;, tsv&quot; and depending on the call &quot;flapjack&quot; may be supported.
-#' @param data data.frame; required: TRUE, with default: &quot;&quot;; data.frame of observation data recorded for different observation variables across different observation units. The data data.frame requires to contain the following columns:
+#' @param data data.frame; required: TRUE, with default: &quot;&quot;; data.frame of observation data recorded for different observation variables across different observation units. The `data` argument data.frame requires to contain the following columns:
 #'
-#'   * observatioUnitDbId character; required: TRUE
-#'   * studyDbId character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.
-#'   * observations data.frame; required: TRUE; the observations data.frame has required and optional columns:
-#'       + collector character; required: TRUE; the name or identifier of the entity which collected the observation
-#'       + observationDbId character; required: FALSE; the ID which uniquely identifies an observation
-#'       + observationTimeStamp character; required: TRUE; the date and time when this observation was made and specified in the ISO 8601 format
-#'       + observationVariableDbId character; required: TRUE; variable unique identifier
-#'       + observationVariableName character; required: TRUE;	a human readable name for an observation variable
-#'       + season	character; required: FALSE; the season when the observation data was collected
-#'       + value character; required: TRUE; the value of the data collected as an observation
+#'   * `observatioUnitDbId` character; required: TRUE
+#'   * `studyDbId` character; required: TRUE; Identifier of the study. Usually a number, could be alphanumeric.
+#'   * `observations` data.frame; required: TRUE; the observations data.frame has required and optional columns:
+#'       + `collector` character; required: TRUE; the name or identifier of the entity which collected the observation
+#'       + `observationDbId` character; required: FALSE; the ID which uniquely identifies an observation
+#'       + `observationTimeStamp` character; required: TRUE; the date and time when this observation was made and specified in the ISO 8601 format
+#'       + `observationVariableDbId` character; required: TRUE; variable unique identifier
+#'       + `observationVariableName` character; required: TRUE;	a human readable name for an observation variable
+#'       + `season`	character; required: FALSE; the season when the observation data was collected
+#'       + `value` character; required: TRUE; the value of the data collected as an observation
 #'
 #' The Examples Section shows an example of how to construct the data argument as a nested data.frame.
 #'
@@ -76,7 +76,7 @@ brapi_post_phenotypes <- function(con = NULL, format = as.character(NA), data = 
   usedArgs <- brapi_usedArgs(origValues = FALSE)
   ## Check if BrAPI server can be reached given the connection details
   brapi_checkCon(con = usedArgs[["con"]], verbose = FALSE)
-  ## Check if usedArgs[["data]] is supplied as empty character vector
+  ## Check if usedArgs[["data"]] is supplied as empty character vector
   if (inherits(usedArgs[["data"]], what = "character") && usedArgs[["data"]] == "") {
     stop('Required argument: "data" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
   }
