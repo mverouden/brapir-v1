@@ -29,7 +29,7 @@ brapi_GET <- function(url, usedArgs) {
                      httr::add_headers("Authorization" = paste("Bearer", usedArgs[["con"]][["token"]])))
   }
 
-  txt <- ifelse(resp$status == 200, " ok!", " problem!")
+  txt <- ifelse(resp[["status_code"]] == 200, " ok!", " problem!")
   brapi_message(msg = paste0("Server status: ", txt, "\n"))
   # url <- httr::content(resp)
   # if (format == "json") show_server_status_messages(resp)
