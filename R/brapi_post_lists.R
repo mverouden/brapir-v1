@@ -5,7 +5,7 @@
 #' Create a New List
 #'
 #' @param con list; required: TRUE; BrAPI connection object
-#' @param data vector of type character; required: FALSE; ; default: &quot;&quot;, when using multiple values supply as c(&quot;value1&quot;, &quot;value2&quot;).
+#' @param data vector of type character; required: FALSE; data items to be posted to the generic list; default: &quot;&quot;, when using multiple values supply as c(&quot;value1&quot;, &quot;value2&quot;).
 #' @param description character; required: FALSE; ; default: &quot;&quot;.
 #' @param listName character; required: FALSE; ; default: &quot;&quot;.
 #' @param listOwnerName character; required: FALSE; ; default: &quot;&quot;.

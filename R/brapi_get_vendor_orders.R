@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_vendor_orders
+#' get /vendor/orders
 #'
 #' @description
 #' List current available orders

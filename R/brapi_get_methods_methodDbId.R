@@ -5,7 +5,7 @@
 #' Get the details for a specific Method
 #'
 #' @param con list; required: TRUE; BrAPI connection object
-#' @param methodDbId character; required: TRUE; Id of the method to retrieve details of.
+#' @param methodDbId character; required: TRUE; Id of the method to retrieve details of.; default: ""
 #'
 #' @details Retrieve details about a specific method
 #' An Observation Variable has 3 critical parts: A Trait being observed, a Method for making the observation, and a Scale on which the observation can be measured and compared with other observations.

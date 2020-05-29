@@ -249,7 +249,9 @@ Other brapi_1.3:
 \code{\link{brapi_post_traits}()},
 \code{\link{brapi_post_vendor_orders}()},
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
-\code{\link{brapi_put_images_imageDbId}()}
+\code{\link{brapi_put_images_imageDbId}()},
+\code{\link{brapi_put_lists_listDbId}()},
+\code{\link{brapi_put_methods_methodDbId}()}
 
 Other Vendor: 
 \code{\link{brapi_get_vendor_orders_orderId_plates}()},

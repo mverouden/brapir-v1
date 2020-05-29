@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_variables_observationVariableDbId
+#' get /variables/\{observationVariableDbId\}
 #'
 #' @description
 #' Get the details for a specific Observation Variable

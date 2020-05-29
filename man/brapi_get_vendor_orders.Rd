@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_vendor_orders.R
 \name{brapi_get_vendor_orders}
 \alias{brapi_get_vendor_orders}
-\title{brapi_get_vendor_orders}
+\title{get /vendor/orders}
 \usage{
 brapi_get_vendor_orders(con = NULL, orderId = "", submissionId = "")
 }
@@ -120,7 +120,9 @@ Other brapi_1.3:
 \code{\link{brapi_post_vendor_orders}()},
 \code{\link{brapi_post_vendor_plates}()},
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
-\code{\link{brapi_put_images_imageDbId}()}
+\code{\link{brapi_put_images_imageDbId}()},
+\code{\link{brapi_put_lists_listDbId}()},
+\code{\link{brapi_put_methods_methodDbId}()}
 
 Other Vendor: 
 \code{\link{brapi_get_vendor_orders_orderId_plates}()},

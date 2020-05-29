@@ -1,5 +1,5 @@
 #' @title
-#' brapi_get_studies_studyDbId_observationvariables
+#' get /studies/\{studyDbId\}/observationvariables
 #'
 #' @description
 #' Get the Observation Variables for a specific Study

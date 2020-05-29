@@ -2,7 +2,7 @@
 % Please edit documentation in R/brapi_get_studies_studyDbId_observationunits.R
 \name{brapi_get_studies_studyDbId_observationunits}
 \alias{brapi_get_studies_studyDbId_observationunits}
-\title{brapi_get_studies_studyDbId_observationunits}
+\title{get /studies/\{studyDbId\}/observationunits}
 \usage{
 brapi_get_studies_studyDbId_observationunits(
   con = NULL,
@@ -130,7 +130,9 @@ Other brapi_1.3:
 \code{\link{brapi_post_vendor_orders}()},
 \code{\link{brapi_post_vendor_plates}()},
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
-\code{\link{brapi_put_images_imageDbId}()}
+\code{\link{brapi_put_images_imageDbId}()},
+\code{\link{brapi_put_lists_listDbId}()},
+\code{\link{brapi_put_methods_methodDbId}()}
 
 Other Studies: 
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},

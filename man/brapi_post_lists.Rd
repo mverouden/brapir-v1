@@ -19,7 +19,7 @@ brapi_post_lists(
 \arguments{
 \item{con}{list; required: TRUE; BrAPI connection object}
 
-\item{data}{vector of type character; required: FALSE; ; default: "", when using multiple values supply as c("value1", "value2").}
+\item{data}{vector of type character; required: FALSE; data items to be posted to the generic list; default: "", when using multiple values supply as c("value1", "value2").}
 
 \item{description}{character; required: FALSE; ; default: "".}
 
@@ -142,12 +142,15 @@ Other brapi_1.3:
 \code{\link{brapi_post_vendor_orders}()},
 \code{\link{brapi_post_vendor_plates}()},
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
-\code{\link{brapi_put_images_imageDbId}()}
+\code{\link{brapi_put_images_imageDbId}()},
+\code{\link{brapi_put_lists_listDbId}()},
+\code{\link{brapi_put_methods_methodDbId}()}
 
 Other Lists: 
 \code{\link{brapi_get_lists_listDbId}()},
 \code{\link{brapi_get_lists}()},
-\code{\link{brapi_post_lists_listDbId_items}()}
+\code{\link{brapi_post_lists_listDbId_items}()},
+\code{\link{brapi_put_lists_listDbId}()}
 }
 \author{
 brapir generator package

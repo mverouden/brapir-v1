@@ -3,7 +3,7 @@
 %   R/brapi_get_studies_studyDbId_observationvariables.R
 \name{brapi_get_studies_studyDbId_observationvariables}
 \alias{brapi_get_studies_studyDbId_observationvariables}
-\title{brapi_get_studies_studyDbId_observationvariables}
+\title{get /studies/\{studyDbId\}/observationvariables}
 \usage{
 brapi_get_studies_studyDbId_observationvariables(
   con = NULL,
@@ -128,7 +128,9 @@ Other brapi_1.3:
 \code{\link{brapi_post_vendor_orders}()},
 \code{\link{brapi_post_vendor_plates}()},
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
-\code{\link{brapi_put_images_imageDbId}()}
+\code{\link{brapi_put_images_imageDbId}()},
+\code{\link{brapi_put_lists_listDbId}()},
+\code{\link{brapi_put_methods_methodDbId}()}
 
 Other Studies: 
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},
@@ -158,7 +160,8 @@ Other Observation Variables:
 \code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_scales}()},
 \code{\link{brapi_post_search_variables}()},
-\code{\link{brapi_post_traits}()}
+\code{\link{brapi_post_traits}()},
+\code{\link{brapi_put_methods_methodDbId}()}
 }
 \author{
 brapir generator package
