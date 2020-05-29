@@ -210,6 +210,7 @@ Other brapi_1.3:
 \code{\link{brapi_post_traits}()},
 \code{\link{brapi_post_vendor_orders}()},
 \code{\link{brapi_post_vendor_plates}()},
+\code{\link{brapi_put_images_imageDbId_imagecontent}()},
 \code{\link{brapi_put_images_imageDbId}()}
 
 Other Images: 
@@ -217,6 +218,7 @@ Other Images:
 \code{\link{brapi_get_images}()},
 \code{\link{brapi_get_search_images_searchResultsDbId}()},
 \code{\link{brapi_post_images}()},
+\code{\link{brapi_put_images_imageDbId_imagecontent}()},
 \code{\link{brapi_put_images_imageDbId}()}
 
 Other Search Services: 
