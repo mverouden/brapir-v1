@@ -116,13 +116,15 @@ Other brapi_1.3:
 \code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_post_traits}()},
 \code{\link{brapi_post_vendor_orders}()},
-\code{\link{brapi_post_vendor_plates}()}
+\code{\link{brapi_post_vendor_plates}()},
+\code{\link{brapi_put_images_imageDbId}()}
 
 Other Images: 
 \code{\link{brapi_get_images}()},
 \code{\link{brapi_get_search_images_searchResultsDbId}()},
 \code{\link{brapi_post_images}()},
-\code{\link{brapi_post_search_images}()}
+\code{\link{brapi_post_search_images}()},
+\code{\link{brapi_put_images_imageDbId}()}
 }
 \author{
 brapir generator package

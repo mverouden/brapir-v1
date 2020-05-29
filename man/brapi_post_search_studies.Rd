@@ -169,7 +169,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_post_traits}()},
 \code{\link{brapi_post_vendor_orders}()},
-\code{\link{brapi_post_vendor_plates}()}
+\code{\link{brapi_post_vendor_plates}()},
+\code{\link{brapi_put_images_imageDbId}()}
 
 Other Studies: 
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},

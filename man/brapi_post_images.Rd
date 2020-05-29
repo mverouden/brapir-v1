@@ -64,7 +64,7 @@ Create a new image meta data object.
 
 The \verb{/images} calls support a GeoJSON object structure for describing their location. The BrAPI spec for GeoJSON only supports two of the possible geometries: Points and Polygons. With most images, the Point geometry should be used, and it should indicate the longitude and latitude of the camera. For top down images (i.e. from drones, cranes, etc), the Point geometry may be used to indicate the longitude and latitude of the centroid of the image content, and the Polygon geometry may be used to indicate the border of the image content.
 \itemize{
-\item \code{imageLocation} argument should be provided as a list. The easiest way in R to construct such a list is to use the \strong{geojsonR} package. Below in the example section examples are provided to create an \code{imageLocation} object for a point and a polygon.
+\item \code{imageLocation} argument should be provided as a list. The easiest way in R to construct such a list is to use the \strong{geojsonR} package. Below in the examples section examples are provided to create an \code{imageLocation} object for a point and a polygon.
 \item \code{descriptiveOntologyTerm} can be thought of as Tags for the image. These could be simple descriptive words, or ontology references, or full ontology URI's.
 }
 }
@@ -76,12 +76,12 @@ con <- brapi_db()$testserver
 
 library(geojsonR)
 # Create an imageLocation example list object
-#' # Point example for Ancient Human Head at Cypress County, Canada
+# Point example for Ancient Human Head at Cypress County, Canada
 init <- TO_GeoJson$new()
 imageLocation <- list()
 pointData <- c(-110.11301, 50.010082) # provide as c(longitude, latitude. altitude)
 imageLocation[["geometry"]] <- init$Point(data = pointData, stringify = FALSE)
-imageLocation$type <- "Feature"
+imageLocation[["type"]] <- "Feature"
 
 # Polygon example with exterior and an interior ring
 # The first list in polygonData creates the exterior ring, whereas
@@ -206,13 +206,15 @@ Other brapi_1.3:
 \code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_post_traits}()},
 \code{\link{brapi_post_vendor_orders}()},
-\code{\link{brapi_post_vendor_plates}()}
+\code{\link{brapi_post_vendor_plates}()},
+\code{\link{brapi_put_images_imageDbId}()}
 
 Other Images: 
 \code{\link{brapi_get_images_imageDbId}()},
 \code{\link{brapi_get_images}()},
 \code{\link{brapi_get_search_images_searchResultsDbId}()},
-\code{\link{brapi_post_search_images}()}
+\code{\link{brapi_post_search_images}()},
+\code{\link{brapi_put_images_imageDbId}()}
 }
 \author{
 brapir generator package
