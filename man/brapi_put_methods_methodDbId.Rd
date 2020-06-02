@@ -169,7 +169,8 @@ Other brapi_1.3:
 \code{\link{brapi_post_vendor_plates}()},
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
 \code{\link{brapi_put_images_imageDbId}()},
-\code{\link{brapi_put_lists_listDbId}()}
+\code{\link{brapi_put_lists_listDbId}()},
+\code{\link{brapi_put_people_personDbId}()}
 
 Other Observation Variables: 
 \code{\link{brapi_get_methods_methodDbId}()},

@@ -138,7 +138,8 @@ Other brapi_1.3:
 \code{\link{brapi_put_images_imageDbId_imagecontent}()},
 \code{\link{brapi_put_images_imageDbId}()},
 \code{\link{brapi_put_lists_listDbId}()},
-\code{\link{brapi_put_methods_methodDbId}()}
+\code{\link{brapi_put_methods_methodDbId}()},
+\code{\link{brapi_put_people_personDbId}()}
 
 Other Lists: 
 \code{\link{brapi_get_lists_listDbId}()},
