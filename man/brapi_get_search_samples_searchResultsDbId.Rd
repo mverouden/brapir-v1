@@ -130,12 +130,14 @@ Other brapi_1.3:
 \code{\link{brapi_put_images_imageDbId}()},
 \code{\link{brapi_put_lists_listDbId}()},
 \code{\link{brapi_put_methods_methodDbId}()},
-\code{\link{brapi_put_people_personDbId}()}
+\code{\link{brapi_put_people_personDbId}()},
+\code{\link{brapi_put_samples}()}
 
 Other Samples: 
 \code{\link{brapi_get_samples_sampleDbId}()},
 \code{\link{brapi_get_samples}()},
-\code{\link{brapi_post_search_samples}()}
+\code{\link{brapi_post_search_samples}()},
+\code{\link{brapi_put_samples}()}
 
 Other Search Services: 
 \code{\link{brapi_get_search_germplasm_searchResultsDbId}()},
