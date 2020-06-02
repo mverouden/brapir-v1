@@ -104,11 +104,11 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
     ## Checking used arguments
     for (i in names(usedArgs)) {
       ## Check for arguments which are of type integer
-      if (i %in% c("decimalPlaces", "listSize", "numberOfSamples","page", "pageSize") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
+      if (i %in% c("decimalPlaces", "listSize", "numberOfSamples","page", "pageSize", "plateIndex") || grepl(pattern = "(max)|(min)|(imageFileSize)|(imageHeight)|(imageWidth)", x = i)) {
         if (!is.numeric(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be of type integer.')
         }
-        if (i %in% c("decimalPlaces", "listSize") && usedArgs[[i]] < 0) {
+        if (i %in% c("decimalPlaces", "listSize", "plateIndex") && usedArgs[[i]] < 0) {
           stop('Argument: "', i, '" should be >= 0.')
         }
         if (i == "page" && usedArgs[[i]] < 0) {
@@ -120,7 +120,7 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         if (grepl(pattern = "(min)|(max)", x = tolower(i)) && ifelse(is.na(usedArgs[[i]]), FALSE, usedArgs[[i]] < 0)) {
           stop('Argument: "', i, '" should be >= 0.')
         }
-        if (i %in% c("decimalPlaces", "listSize", "numberOfSamples", "page", "pageSize")) {
+        if (i %in% c("decimalPlaces", "listSize", "numberOfSamples", "page", "pageSize", "plateIndex")) {
           usedArgs[[i]] <- NULL
         }
         next()
