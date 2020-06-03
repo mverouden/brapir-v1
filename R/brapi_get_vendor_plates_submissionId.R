@@ -5,7 +5,7 @@
 #' Get the data for a submitted set of plates
 #'
 #' @param con list; required: TRUE; BrAPI connection object
-#' @param submissionId character; required: TRUE;
+#' @param submissionId character; required: TRUE; A unique alpha-numeric identifier, which identifies a set of plates which have been successfully submitted. It is obtained from the response of the "POST /vendor/plates" call implemented in the `brapi_post_vendor_plates()` function; default: &quot;&quot;.
 #'
 #' @details Get data for a submitted set of plates
 #'
