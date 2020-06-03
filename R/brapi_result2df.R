@@ -128,7 +128,11 @@ brapi_result2df <- function(cont, usedArgs) {
                    for (i in seq_len(nrows)) {
                      if (i %in% nonEmptyDetailRows) {
                        nextRow <- jointDetail(detail[i, ], colName)
-                       tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       if (nrow(tempDetail) == 0) {
+                         tempDetail <- nextRow
+                       } else {
+                         tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       }
                        rm(nextRow)
                      } else {# i %in% emptyDetailRows
                        partRowDetail <- detail[i, -c(which(names(detail) == colName))]
@@ -136,7 +140,11 @@ brapi_result2df <- function(cont, usedArgs) {
                        partRowExt <- data.frame(matrix(data = NA, nrow = 1, ncol = length(extColNames)))
                        names(partRowExt) <- extColNames
                        nextRow <- dplyr::bind_cols(partRowDetail, partRowExt)
-                       tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       if (nrow(tempDetail) == 0) {
+                         tempDetail <- nextRow
+                       } else {
+                         tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       }
                        rm(partRowDetail, partRowExt, extColNames, nextRow)
                      }
                    }
@@ -247,7 +255,11 @@ brapi_result2df <- function(cont, usedArgs) {
                    for (i in seq_len(nrows)) {
                      if (i %in% nonEmptyDetailRows) {
                        nextRow <- jointDetail(detail[i, ], colName)
-                       tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       if (nrow(tempDetail) == 0) {
+                         tempDetail <- nextRow
+                       } else {
+                         tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       }
                        rm(nextRow)
                      } else {# i %in% emptyDetailRows
                        partRowDetail <- detail[i, -c(which(names(detail) == colName))]
@@ -255,7 +267,11 @@ brapi_result2df <- function(cont, usedArgs) {
                        partRowExt <- data.frame(matrix(data = NA, nrow = 1, ncol = length(extColNames)))
                        names(partRowExt) <- extColNames
                        nextRow <- dplyr::bind_cols(partRowDetail, partRowExt)
-                       tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       if (nrow(tempDetail) == 0) {
+                         tempDetail <- nextRow
+                       } else {
+                         tempDetail <- dplyr::bind_rows(tempDetail, nextRow)
+                       }
                        rm(partRowDetail, partRowExt, extColNames, nextRow)
                      }
                    }
