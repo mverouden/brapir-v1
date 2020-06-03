@@ -9,7 +9,7 @@ brapi_get_vendor_plates_submissionId(con = NULL, submissionId = "")
 \arguments{
 \item{con}{list; required: TRUE; BrAPI connection object}
 
-\item{submissionId}{character; required: TRUE;}
+\item{submissionId}{character; required: TRUE; A unique alpha-numeric identifier, which identifies a set of plates which have been successfully submitted. It is obtained from the response of the "POST /vendor/plates" call implemented in the \code{brapi_post_vendor_plates()} function; default: "".}
 }
 \value{
 data.frame
