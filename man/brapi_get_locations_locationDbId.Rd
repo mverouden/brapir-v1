@@ -126,7 +126,8 @@ Other brapi_1.3:
 \code{\link{brapi_put_lists_listDbId}()},
 \code{\link{brapi_put_methods_methodDbId}()},
 \code{\link{brapi_put_people_personDbId}()},
-\code{\link{brapi_put_samples}()}
+\code{\link{brapi_put_samples}()},
+\code{\link{brapi_put_scales_scaleDbId}()}
 
 Other Locations: 
 \code{\link{brapi_get_locations}()}

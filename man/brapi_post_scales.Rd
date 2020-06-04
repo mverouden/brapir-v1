@@ -23,7 +23,7 @@ brapi_post_scales(
 \item "Date" - The date class is for events expressed in a time format, e.g. yyyymmddThh:mm:ssZ or dd/mm/yy
 \item "Duration" - The Duration class is for time elapsed between two events expressed in a time format, e.g. days, hours, months
 \item "Nominal" - Categorical scale that can take one of a limited and fixed number of categories. There is no intrinsic ordering to the categories
-\item "Numerical" - Numerical scales express the trait with real numbers. The numerical scale defines the unit e.g. centimeter, ton per hectar, branches
+\item "Numerical" - Numerical scales express the trait with real numbers. The numerical scale defines the unit e.g. centimeter, ton per hectare, branches
 \item "Ordinal" - Ordinal scales are scales composed of ordered categories
 \item "Text" - A free text is used to express the trait.
 }
@@ -187,7 +187,8 @@ Other brapi_1.3:
 \code{\link{brapi_put_lists_listDbId}()},
 \code{\link{brapi_put_methods_methodDbId}()},
 \code{\link{brapi_put_people_personDbId}()},
-\code{\link{brapi_put_samples}()}
+\code{\link{brapi_put_samples}()},
+\code{\link{brapi_put_scales_scaleDbId}()}
 
 Other Observation Variables: 
 \code{\link{brapi_get_methods_methodDbId}()},
@@ -204,7 +205,8 @@ Other Observation Variables:
 \code{\link{brapi_post_methods}()},
 \code{\link{brapi_post_search_variables}()},
 \code{\link{brapi_post_traits}()},
-\code{\link{brapi_put_methods_methodDbId}()}
+\code{\link{brapi_put_methods_methodDbId}()},
+\code{\link{brapi_put_scales_scaleDbId}()}
 }
 \author{
 brapir generator package
