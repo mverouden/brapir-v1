@@ -11,7 +11,7 @@
 #'    + &quot;Date&quot; - The date class is for events expressed in a time format, e.g. yyyymmddThh:mm:ssZ or dd/mm/yy
 #'    + &quot;Duration&quot; - The Duration class is for time elapsed between two events expressed in a time format, e.g. days, hours, months
 #'    + &quot;Nominal&quot; - Categorical scale that can take one of a limited and fixed number of categories. There is no intrinsic ordering to the categories
-#'    + &quot;Numerical&quot; - Numerical scales express the trait with real numbers. The numerical scale defines the unit e.g. centimeter, ton per hectar, branches
+#'    + &quot;Numerical&quot; - Numerical scales express the trait with real numbers. The numerical scale defines the unit e.g. centimeter, ton per hectare, branches
 #'    + &quot;Ordinal&quot; - Ordinal scales are scales composed of ordered categories
 #'    + &quot;Text&quot; - A free text is used to express the trait.
 #'
