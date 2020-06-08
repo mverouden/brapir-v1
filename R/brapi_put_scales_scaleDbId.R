@@ -44,30 +44,30 @@
 #' # ontologyDbId should be specified as an existing one (see get /ontologies) or
 #' # left empty (some servers might generate a new ontologyDbId).
 #' ontologyReference <- list(
-#'   documentationLinks = data.frame(URL = "https://Ontology.org/s4",
-#'                                   type = "WEBPAGE"),
+#'   documentationLinks = data.frame(URL = "https://Ontology.org/s5",
+#'                                   type = "RDF"),
 #'   ontologyDbId = "MO_123",
 #'   ontologyName = "Ontology.org",
-#'   version = "18")
+#'   version = "17")
 #'
 #' # Create an validValues example list object
 #' # If categories is used max and min have to be 0, vice versa when specifying
 #' # max and min for a numerical or date scale the categories should specified
 #' # as "".
 #' validValues <- list(
-#'   categories = "",
+#'   categories = c("xxs", "xs", "s", "m", "l", "xl", "xxl"),
 #'   max = 0,
-#'   min = 100)
+#'   min = 0)
 #'
 #' # Make post /scales call
 #' brapi_put_scales_scaleDbId(con = con,
-#'                            scaleDbId = "s4",
-#'                            dataType = "Numerical",
-#'                            decimalPlaces = 2,
+#'                            scaleDbId = "", # use from brapi_post_scales() example
+#'                            dataType = "Ordinal",
+#'                            decimalPlaces = 0,
 #'                            ontologyReference = ontologyReference,
-#'                            scaleName = "Percentage",
+#'                            scaleName = "Clothing Sizes",
 #'                            validValues = validValues,
-#'                            xref = "jsonld")
+#'                            xref = "xref")
 #' }
 #'
 #' @export
