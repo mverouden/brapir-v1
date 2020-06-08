@@ -132,7 +132,8 @@ Other brapi_1.3:
 \code{\link{brapi_put_methods_methodDbId}()},
 \code{\link{brapi_put_people_personDbId}()},
 \code{\link{brapi_put_samples}()},
-\code{\link{brapi_put_scales_scaleDbId}()}
+\code{\link{brapi_put_scales_scaleDbId}()},
+\code{\link{brapi_put_studies_studyDbId_layouts}()}
 
 Other Images: 
 \code{\link{brapi_get_images_imageDbId}()},
