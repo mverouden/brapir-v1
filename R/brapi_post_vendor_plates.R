@@ -136,16 +136,16 @@ brapi_post_vendor_plates <- function(con = NULL, clientId = '', numberOfSamples 
   brapi_checkCon(con = usedArgs[["con"]], verbose = FALSE)
   ## Check if usedArgs[["plates"]] is supplied as empty character vector
   if (inherits(usedArgs[["plates"]], what = "character") && usedArgs[["plates"]] == "") {
-    stop('Required argument: "data" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
+    stop('Required argument: "plates" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
   }
   plates <- usedArgs[["plates"]]
   if (!inherits(x = plates, what = "data.frame")) {
-    stop('Required argument: "data" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
+    stop('Required argument: "plates" should be supplied as a data.frame, see the help page on how the data.frame should be constructed.')
   }
   usedArgs[["plates"]] <- NULL
   ## Check validity of used and required arguments
   brapi_checkArgs(usedArgs, reqArgs = "")
-  ## Put data back into usedArgs
+  ## Put plates back into usedArgs
   usedArgs[["plates"]] <- plates
   ## Obtain the call url
   callurl <- brapi_POST_callURL(usedArgs = usedArgs,
