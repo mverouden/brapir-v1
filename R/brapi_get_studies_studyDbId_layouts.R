@@ -9,7 +9,7 @@
 #' @param page integer; required: FALSE; Which result page is requested. The page indexing starts at 0 (the first page is 'page'= 0). Default is `0`.
 #' @param pageSize integer; required: FALSE; The size of the pages to be returned. Default is `1000`.
 #'
-#' @details Retrive the layout details for a study. Returns an array of observation unit position data which describes where each unit and germplasm is located within the study layout.
+#' @details Retrieve the layout details for a study. Returns an array of observation unit position data which describes where each unit and germplasm is located within the study layout.
 #'
 #' Retrieve the plot layout of the study with studyDbId.
 #'
