@@ -28,6 +28,8 @@ Imports:
     readr,
     tidyr,
     knitr,
-    geojsonR
-Suggests:
+    geojsonR,
+    lubridate,
+    anytime
+Suggets:
 VignetteBuilder: knitr

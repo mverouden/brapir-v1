@@ -130,7 +130,8 @@ Other brapi_1.3:
 \code{\link{brapi_put_people_personDbId}()},
 \code{\link{brapi_put_samples}()},
 \code{\link{brapi_put_scales_scaleDbId}()},
-\code{\link{brapi_put_studies_studyDbId_layouts}()}
+\code{\link{brapi_put_studies_studyDbId_layouts}()},
+\code{\link{brapi_put_studies_studyDbId_observations}()}
 
 Other Studies: 
 \code{\link{brapi_get_search_studies_searchResultsDbId}()},
@@ -145,7 +146,8 @@ Other Studies:
 \code{\link{brapi_get_studytypes}()},
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
-\code{\link{brapi_put_studies_studyDbId_layouts}()}
+\code{\link{brapi_put_studies_studyDbId_layouts}()},
+\code{\link{brapi_put_studies_studyDbId_observations}()}
 
 Other Observations: 
 \code{\link{brapi_get_observationlevels}()},
@@ -157,7 +159,8 @@ Other Observations:
 \code{\link{brapi_post_phenotypes}()},
 \code{\link{brapi_post_search_observationtables}()},
 \code{\link{brapi_post_search_observationunits}()},
-\code{\link{brapi_post_studies_studyDbId_table}()}
+\code{\link{brapi_post_studies_studyDbId_table}()},
+\code{\link{brapi_put_studies_studyDbId_observations}()}
 }
 \author{
 brapir generator package
