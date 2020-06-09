@@ -69,7 +69,7 @@
 #' }
 #'
 #' @export
-brapi_put_studies_studyDbId_layouts <- function(con = NULL, studyDbId = '', layout = "") {
+brapi_put_studies_studyDbId_layouts <- function(con = NULL, studyDbId = '', layout = '') {
   ## Create a list of used arguments
   usedArgs <- brapi_usedArgs(origValues = FALSE)
   ## Check if BrAPI server can be reached given the connection details
