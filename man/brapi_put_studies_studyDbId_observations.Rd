@@ -67,7 +67,7 @@ observations <- data.frame(
            "Z")),
   observationUnitDbId = c("2", "4"),
   obserbationVariableDbId = c("MO_123:100002", "MO_123:100006"),
-  value = c("2.1", "0.8"))
+  value = c("2.2", "0.8"))
 
 # Make put /studies/{studyDbId}/observations call
 brapi_put_studies_studyDbId_observations(con = con,
