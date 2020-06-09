@@ -56,7 +56,7 @@ con <- brapi_db()$testserver
 # 2) add Virus severity (observationVariableDbId = "MO_123:100006")
 #    of 0.8 for Plant 2 (observationUnitDbId = "4")
 observations <- data.frame(
-  collector = c("Bob", "Freddy"),
+  collector = c("Jack", "Freddy"),
   observationDbId = c("3", ""),
   observationTimeStamp = c(
     paste0(anytime::iso8601(lubridate::with_tz(Sys.time(),
