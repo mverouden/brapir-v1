@@ -74,7 +74,7 @@ ontologyReference <- list(
 
 # Make post /traits call
 brapi_put_traits_traitDbId(con = con,
-                           traitDbIb = "", # retrieve from brapi_get_traits()
+                           traitDbId = "", # retrieve from brapi_get_traits()
                            alternativeAbbreviations = c("clothSizes", "sizesCloth"),
                            attribute = "size",
                            class = "physiological trait",
