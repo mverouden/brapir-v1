@@ -63,7 +63,7 @@ con <- brapi_db()$testserver
 # ontologyDbId should be specified as an existing one (see get /ontologies) or
 # left empty (some servers might generate a new ontologyDbId).
 ontologyReference <- list(
-  documentationLinks = data.frame(URL = "https://Ontology.org/s7",
+  documentationLinks = data.frame(URL = "https://Ontology.org/s6",
                                   type = "RDF"),
   ontologyDbId = "MO_123",
   ontologyName = "Ontology.org",
@@ -71,17 +71,17 @@ ontologyReference <- list(
 
 # Make post /traits call
 brapi_post_traits(con = con,
-                  alternativeAbbreviations = c(""),
-                  attribute = "",
-                  class = "",
-                  description = "",
-                  entity = "",
-                  mainAbbreviation = "",
+                  alternativeAbbreviations = "",
+                  attribute = "size",
+                  class = "morphological trait",
+                  description = "Size designation of clothes",
+                  entity = "clothing",
+                  mainAbbreviation = "CS",
                   ontologyReference = ontologyReference,
-                  status = "",
+                  status = "legacy",
                   synonyms = "",
-                  traitName = "",
-                  xref = "")
+                  traitName = "clothingSize",
+                  xref = "none")
 }
 
 }
@@ -190,7 +190,8 @@ Other brapi_1.3:
 \code{\link{brapi_put_samples}()},
 \code{\link{brapi_put_scales_scaleDbId}()},
 \code{\link{brapi_put_studies_studyDbId_layouts}()},
-\code{\link{brapi_put_studies_studyDbId_observations}()}
+\code{\link{brapi_put_studies_studyDbId_observations}()},
+\code{\link{brapi_put_traits_traitDbId}()}
 
 Other Observation Variables: 
 \code{\link{brapi_get_methods_methodDbId}()},
@@ -208,7 +209,8 @@ Other Observation Variables:
 \code{\link{brapi_post_scales}()},
 \code{\link{brapi_post_search_variables}()},
 \code{\link{brapi_put_methods_methodDbId}()},
-\code{\link{brapi_put_scales_scaleDbId}()}
+\code{\link{brapi_put_scales_scaleDbId}()},
+\code{\link{brapi_put_traits_traitDbId}()}
 }
 \author{
 brapir generator package
