@@ -38,7 +38,7 @@
 #' # ontologyDbId should be specified as an existing one (see get /ontologies) or
 #' # left empty (some servers might generate a new ontologyDbId).
 #' ontologyReference <- list(
-#'   documentationLinks = data.frame(URL = "https://Ontology.org/s7",
+#'   documentationLinks = data.frame(URL = "https://Ontology.org/s6",
 #'                                   type = "RDF"),
 #'   ontologyDbId = "MO_123",
 #'   ontologyName = "Ontology.org",
@@ -46,17 +46,17 @@
 #'
 #' # Make post /traits call
 #' brapi_post_traits(con = con,
-#'                   alternativeAbbreviations = c(""),
-#'                   attribute = "",
-#'                   class = "",
-#'                   description = "",
-#'                   entity = "",
-#'                   mainAbbreviation = "",
+#'                   alternativeAbbreviations = "",
+#'                   attribute = "size",
+#'                   class = "morphological trait",
+#'                   description = "Size designation of clothes",
+#'                   entity = "clothing",
+#'                   mainAbbreviation = "CS",
 #'                   ontologyReference = ontologyReference,
-#'                   status = "",
+#'                   status = "legacy",
 #'                   synonyms = "",
-#'                   traitName = "",
-#'                   xref = "")
+#'                   traitName = "clothingSize",
+#'                   xref = "none")
 #' }
 #'
 #' @export
