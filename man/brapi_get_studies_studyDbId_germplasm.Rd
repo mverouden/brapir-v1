@@ -135,6 +135,7 @@ Other brapi_1.3:
 \code{\link{brapi_put_scales_scaleDbId}()},
 \code{\link{brapi_put_studies_studyDbId_layouts}()},
 \code{\link{brapi_put_studies_studyDbId_observations}()},
+\code{\link{brapi_put_studies_studyDbId_observationunits}()},
 \code{\link{brapi_put_traits_traitDbId}()}
 
 Other Studies: 
@@ -151,7 +152,8 @@ Other Studies:
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
 \code{\link{brapi_put_studies_studyDbId_layouts}()},
-\code{\link{brapi_put_studies_studyDbId_observations}()}
+\code{\link{brapi_put_studies_studyDbId_observations}()},
+\code{\link{brapi_put_studies_studyDbId_observationunits}()}
 
 Other Germplasm: 
 \code{\link{brapi_get_breedingmethods_breedingMethodDbId}()},

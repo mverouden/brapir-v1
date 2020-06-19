@@ -14,7 +14,7 @@ brapi_put_studies_studyDbId_layouts(con = NULL, studyDbId = "", layout = "")
 \item{layout}{data.frame; required: TRUE, with default: ""; data.frame of observation unit position data entities which need to be updated. Each row in the \code{layout} argument data .frame corresponds to a single entity and requires to contain the following columns:
 \itemize{
 \item \code{blockNumber} vector of type character; to specify the blocknumber positions of each observation unit
-\item \code{entryType} vector of type character; to specify the entrytype of each observation unit with possible values: "CHECK" | "FILLER" | "TEST
+\item \code{entryType} vector of type character; to specify the entrytype of each observation unit with possible values: "CHECK" | "FILLER" | "TEST"
 \item \code{observationUnitDbId} vector of type character; to specify the internal database identifier of each observation unit.
 \item \code{positionCoordinateX} vector of type character; to specify the X position coordinate for each observation unit. Different systems may use different coordinate systems.
 \item \code{positionCoordinateXType} vector of type character; to specify the type of X positional coordinate used for each observation unit. Must be one of the following values:
@@ -183,6 +183,7 @@ Other brapi_1.3:
 \code{\link{brapi_put_samples}()},
 \code{\link{brapi_put_scales_scaleDbId}()},
 \code{\link{brapi_put_studies_studyDbId_observations}()},
+\code{\link{brapi_put_studies_studyDbId_observationunits}()},
 \code{\link{brapi_put_traits_traitDbId}()}
 
 Other Studies: 
@@ -199,7 +200,8 @@ Other Studies:
 \code{\link{brapi_get_studytypes}()},
 \code{\link{brapi_post_search_studies}()},
 \code{\link{brapi_post_studies_studyDbId_table}()},
-\code{\link{brapi_put_studies_studyDbId_observations}()}
+\code{\link{brapi_put_studies_studyDbId_observations}()},
+\code{\link{brapi_put_studies_studyDbId_observationunits}()}
 }
 \author{
 brapir generator package
