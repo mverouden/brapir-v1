@@ -9,7 +9,7 @@
 #' @param layout data.frame; required: TRUE, with default: &quot;&quot;; data.frame of observation unit position data entities which need to be updated. Each row in the `layout` argument data .frame corresponds to a single entity and requires to contain the following columns:
 #'
 #'   * `blockNumber` vector of type character; to specify the blocknumber positions of each observation unit
-#'   * `entryType` vector of type character; to specify the entrytype of each observation unit with possible values: "CHECK" | "FILLER" | "TEST
+#'   * `entryType` vector of type character; to specify the entrytype of each observation unit with possible values: "CHECK" | "FILLER" | "TEST"
 #'   * `observationUnitDbId` vector of type character; to specify the internal database identifier of each observation unit.
 #'   * `positionCoordinateX` vector of type character; to specify the X position coordinate for each observation unit. Different systems may use different coordinate systems.
 #'   * `positionCoordinateXType` vector of type character; to specify the type of X positional coordinate used for each observation unit. Must be one of the following values:
