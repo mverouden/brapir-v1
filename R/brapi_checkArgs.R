@@ -134,7 +134,15 @@ brapi_checkArgs <- function(usedArgs, reqArgs) {
         next()
       }
       ## Check for arguments which are of type list
-      if (i %in% c("additionalInfo", "imageLocation", "ontologyReference", "requiredServiceInfo", "validValues")) {
+      if (i %in% c("additionalInfo",
+                   "imageLocation",
+                   "observationsList",
+                   "observationUnitXrefList",
+                   "seasonList",
+                   "treatmentList",
+                   "ontologyReference",
+                   "requiredServiceInfo",
+                   "validValues")) {
         if (!is.list(usedArgs[[i]])) {
           stop('Argument: "', i, '" should be provided as a list.')
         }
