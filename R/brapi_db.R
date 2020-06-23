@@ -30,7 +30,7 @@ brapi_db <- function() {
   bms_test <- as.brapi_db(secure = FALSE,
                           protocol = "http://",
                           db = "34.226.132.187",
-                          port = 48080,
+                          port = 80,
                           apipath = "bmsapi",
                           multicrop = TRUE,
                           commoncropname = "",
