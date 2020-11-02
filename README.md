@@ -11,22 +11,18 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 -->
 
-This version is still under development. The implementation sometimes
-changes minor details with respect to the GET calls. The POST and PUT
-calls are under construction\!
+This repository contains the full implementation of the BrAPI v1.3
+specification in R, also know as the BrAPIR package v1.3.
 
-Current support is mainly for BrAPI version 1.3
+The BrAPI specification v1.3 can be found on:
 
-Development of version 2.0 will start shortly after the Production and
-test-server (<https://test-server.brapi.org/brapi/v2/>) release.
-
-<!--A 176 tests have been implemented to check on compliance.-->
+-   [BrAPI v1.3 on
+    Github](https://github.com/plantbreeding/API/tree/V1.3)
+-   [BrAPI v1.3 on
+    SwaggerHub](https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.3)
 
 For independent checks against a database you may use
 <http://webapps.ipk-gatersleben.de/brapivalidator>.
-
-It seems several databases may not currently be fully accessible due to
-protocol changes.
 
 # README
 
@@ -39,8 +35,5 @@ It can be installed using:
 
 ``` r
 install.packages("remotes")
-remotes::install_github("mverouden/brapir")
+remotes::install_github("mverouden/brapir-v1")
 ```
-
-<!--## How to use the package
-See [tutorial](https://cip-riu.github.io/brapi/articles/tutorial.html).-->
