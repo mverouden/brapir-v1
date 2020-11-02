@@ -22,7 +22,14 @@ Although the POST /token call for authentication has been deprecated after versi
 \dontrun{
 
 # Create a connection object
-con <- brapi_db()$testserver
+con <- brapi_db()$bms_test
+# Add a username
+con$user <- ""
+# Add a password
+con$password
+
+# Login
+con <-brapi_login(con = con)
 }
 
 }
