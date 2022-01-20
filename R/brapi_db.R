@@ -7,8 +7,8 @@
 #' @details
 #' Extended the function call with $database_name. White listed values for
 #' database_name are: apiary, bms_test, cassavabase, cropontology, eu_sol,
-#' genesys, germinate, icrisat_prod, mgis, musabase, ricebase, snpseek,
-#' sweetpotatobase, terraref, testserver, t3s, tto, ttw, yambase.
+#' genesys, germinate, icrisat_prod, imagebreed, mgis, musabase, ricebase,
+#' snpseek, sweetpotatobase, terraref, testserver, t3s, tto, ttw, yambase.
 #'
 #' @return An BrAPI compliant database connection object of class brapi_db.
 #'
@@ -85,6 +85,19 @@ brapi_db <- function() {
                               granttype = "password",
                               clientid = "brapir",
                               bms = TRUE)
+  imagebreed <- as.brapi_db(secure = TRUE,
+                            protocol = "https://",
+                            db = "imagebreed.org",
+                            port = 80,
+                            apipath = NULL,
+                            multicrop = FALSE,
+                            commoncropname = "",
+                            user = "",
+                            password = "",
+                            token = "",
+                            granttype = "password",
+                            clientid = "brapir",
+                            bms = FALSE)
   mgis <- as.brapi_db(secure = TRUE,
                       protocol = "https://",
                       db = "www.crop-diversity.org",
@@ -186,6 +199,7 @@ brapi_db <- function() {
               genesys = genesys,
               germinate_test = germinate,
               icrisat_prod = icrisat_prod,
+              imagebreed = imagebreed,
               mgis = mgis,
               musabase = musabase,
               ricebase = ricebase,
