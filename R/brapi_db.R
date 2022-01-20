@@ -83,7 +83,7 @@ brapi_db <- function() {
                               user = "",
                               password = "",
                               granttype = "password",
-                              clientid = "brapir",
+                              clientid = "brapirv1",
                               bms = TRUE)
   imagebreed <- as.brapi_db(secure = TRUE,
                             protocol = "https://",
@@ -96,7 +96,7 @@ brapi_db <- function() {
                             password = "",
                             token = "",
                             granttype = "password",
-                            clientid = "brapir",
+                            clientid = "brapirv1",
                             bms = FALSE)
   mgis <- as.brapi_db(secure = TRUE,
                       protocol = "https://",
