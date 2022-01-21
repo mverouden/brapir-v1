@@ -43,7 +43,7 @@ brapi_connect <- function(brapiDb = NULL,
                           password = "",
                           token = "",
                           granttype = "password",
-                          clientid = "brapir",
+                          clientid = "brapirv1",
                           bms = FALSE) {
   brapi <- NULL
   if (!is.null(brapiDb)) {

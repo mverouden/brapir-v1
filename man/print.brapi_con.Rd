@@ -22,6 +22,8 @@ Other brapiutils:
 \code{\link{brapi_checkCon}()},
 \code{\link{brapi_connect}()},
 \code{\link{brapi_db}()},
+\code{\link{brapi_imagebreed_login}()},
+\code{\link{brapi_imagebreed_logout}()},
 \code{\link{brapi_login}()},
 \code{\link{brapi_serverinfo_show}()},
 \code{\link{is.brapi_con}()},
