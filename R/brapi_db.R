@@ -88,7 +88,7 @@ brapi_db <- function() {
   imagebreed <- as.brapi_db(secure = TRUE,
                             protocol = "https://",
                             db = "imagebreed.org",
-                            port = 80,
+                            port = 443,
                             apipath = NULL,
                             multicrop = FALSE,
                             commoncropname = "",

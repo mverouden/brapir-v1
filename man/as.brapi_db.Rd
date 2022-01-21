@@ -16,7 +16,7 @@ as.brapi_db(
   password = "",
   token = "",
   granttype = "password",
-  clientid = "brapir",
+  clientid = "brapirv1",
   bms = FALSE
 )
 }
