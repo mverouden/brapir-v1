@@ -7,7 +7,7 @@
 #' @param con list; required: **TRUE**; BrAPI connection object of class `brapi_con`.
 #'
 #' @examples
-#' library(brapir)
+#' library(brapirv1)
 #'
 #' if (interactive()) {
 #'   con <- brapi_db()$testserver
